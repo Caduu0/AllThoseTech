@@ -2,7 +2,9 @@ const REMOVED_ITEMS = [
     'mysticalagriculture:limestone_seeds',
     'mysticalagriculture:limestone_essence',
     'mysticalagriculture:saltpeter_seeds',
-    'mysticalagriculture:saltpeter_essence'
+    'mysticalagriculture:saltpeter_essence',
+    'mysticalagriculture:marble_seeds',
+    'mysticalagriculture:marble_essence'
 ];
 
 // Remove os itens das telas de busca (JEI, REI e EMI)

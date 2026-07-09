@@ -162,20 +162,6 @@ event.shaped(
   }
 )
 
-// --------------------- Mystical Agriculture --------------------- //
-// Marble Essence
-event.shaped(
-  Item.of('aether_ii:marbled_ichorite', 8),
-  [
-    'AAA',
-    'A A',
-    'AAA'
-  ],
-  {
-    A: 'mysticalagriculture:marble_essence'
-  }
-)
-
 // --------------------- Time in a Bottle --------------------- //
 // Time in a Bottle
 event.remove({ output: 'tiab:time_in_a_bottle' })
@@ -194,6 +180,8 @@ event.shaped(
   }
 )
 })
+
+// ------------------------------------------ //
 
 // Receitas customizadas da Smithing Table.
 ServerEvents.recipes(event => {
@@ -215,57 +203,34 @@ event.custom({
 })
 })
 
+// ------------------------------------------ //
+
 // Receitas customizadas do Mystical Agriculture (Infusion Crafting).
 ServerEvents.recipes(event => {
 // --------------------- Mystical Agriculture --------------------- //
-// Magical Soil
-event.custom({
-    type: 'mysticalagriculture:infusion',
+// // Magical Soil --------- CRIAR UMA RECIPE E UMA UTILIDADE PARA O ITEM, OU REMOVER...
+// event.custom({
+//     type: 'mysticalagriculture:infusion',
     
-    // O item que vai no Altar central
-    input: 'kubejs:magical_soil',
+//     // O item que vai no Altar central
+//     input: 'kubejs:magical_soil',
     
-    // Os itens que vão nos Pedestais
-    ingredients: [
-        'kubejs:magical_soil',    // Topo-Esquerda
-        'kubejs:magical_soil',    // Topo
-        'kubejs:magical_soil',    // Topo-Direita
-        'kubejs:magical_soil',    // Direita
-        'kubejs:magical_soil',    // Baixo-Direita
-        'kubejs:magical_soil',    // Baixo
-        'kubejs:magical_soil',    // Baixo-Esquerda
-        'kubejs:magical_soil'     // Esquerda
-    ],
-    result: {
-        id: 'kubejs:magical_soil', 
-        count: 1
-    }
-})
-
-// Marble Seeds
-event.remove({ id: 'mysticalagriculture:marble_seeds_infusion' })
-event.custom({
-    type: 'mysticalagriculture:infusion',
-    
-    // O item que vai no Altar central
-    input: 'mysticalagriculture:prosperity_seed_base',
-    
-    // Os itens que vão nos Pedestais
-    ingredients: [
-        'aether_ii:marbled_ichorite',                // Topo-Esquerda
-        'mysticalagriculture:prudentium_essence',    // Topo
-        'aether_ii:marbled_ichorite',                // Topo-Direita
-        'mysticalagriculture:prudentium_essence',    // Direita
-        'aether_ii:marbled_ichorite',                // Baixo-Direita
-        'mysticalagriculture:prudentium_essence',    // Baixo
-        'aether_ii:marbled_ichorite',                // Baixo-Esquerda
-        'mysticalagriculture:prudentium_essence'     // Esquerda
-    ],
-    result: {
-        id: 'mysticalagriculture:marble_seeds', 
-        count: 1
-    }
-})
+//     // Os itens que vão nos Pedestais
+//     ingredients: [
+//         'kubejs:magical_soil',    // Topo-Esquerda
+//         'kubejs:magical_soil',    // Topo
+//         'kubejs:magical_soil',    // Topo-Direita
+//         'kubejs:magical_soil',    // Direita
+//         'kubejs:magical_soil',    // Baixo-Direita
+//         'kubejs:magical_soil',    // Baixo
+//         'kubejs:magical_soil',    // Baixo-Esquerda
+//         'kubejs:magical_soil'     // Esquerda
+//     ],
+//     result: {
+//         id: 'kubejs:magical_soil', 
+//         count: 1
+//     }
+// })
 
 // --------------------- Compass --------------------- //
 // Nature's Compass
@@ -294,6 +259,8 @@ event.custom({
 })
 })
 
+// ------------------------------------------ //
+
 // Receitas customizadas do Mystical Agriculture (Awakening Crafting).
 ServerEvents.recipes(event => {
 // --------------------- AllTheModium --------------------- //
@@ -309,7 +276,7 @@ event.custom({
     ingredients: [
         'allthemodium:vibranium_block',     // Topo-Esquerda
         'allthemodium:unobtainium_block',   // Topo-Direita
-        'allthemodium:unobtainium_block',   // Baixo-Esquerda
+        'allthemodium:vibranium_block',     // Baixo-Esquerda
         'allthemodium:unobtainium_block'    // Baixo-Direita
     ],
     
@@ -328,6 +295,8 @@ event.custom({
     }
 })
 })
+
+// ------------------------------------------ //
 
 // Receitas customizadas do EnderIO.
 ServerEvents.recipes(event => {
