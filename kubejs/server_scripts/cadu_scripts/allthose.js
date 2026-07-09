@@ -1,8 +1,25 @@
-// Baccon (Receita feita pelo MODNAME).
+// Baccon (Feito pelo Mechanical Crafter do Create).
 ServerEvents.recipes(event => {
-event.remove({ output: 'allthosetweaks:baccon' })
-
-}) // Decidir qual mod usar e criar receita do Baccon.
+// event.custom({
+//         type: 'create:mechanical_crafting',
+//         pattern: [
+//             '   A   ',
+//             '  AAA  ',
+//             ' AAAAA ',
+//             'AAAAAAA',
+//             ' AAAAA ',
+//             '  AAA  ',
+//             '   A   '
+//         ],
+//         key: {
+//             A: { item: 'allthosetweaks:baccon' }
+//         },
+//         result: {
+//             id: 'allthosetweaks:baccon',
+//             count: 1
+//         }
+//     })
+}) // Esperar mais mods lancar e criar receita do Baccon usando todos os mods.
 
 // --------------------- Itens Creativo --------------------- //
 // Crafting Table.
