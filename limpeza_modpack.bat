@@ -19,6 +19,7 @@ echo.
 echo Este script apagara SEM BACKUP:
 echo  1. Todos os arquivos de configuracao residuais dos mods listados.
 echo  2. TODOS os arquivos ".bak" perdidos em qualquer subpasta do modpack.
+echo  3. TODOS os arquivos cache em qualquer pasta ou subpasta do modpack.
 echo.
 set /p choice="Tem certeza que deseja DELETAR TUDO isso? (s/n): "
 

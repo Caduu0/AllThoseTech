@@ -1,16 +1,14 @@
-// ServerEvents.tags('item', event => {
-//     event.add('curios:curio', 'toms_storage:adv_wireless_terminal');
-// })
-
 // ServerEvents.tags('item', event => {  // MOD NAO ATUALIZADO AINDA
 //     event.add('curios:face', 'create:goggles');
 // })
 
-// Unified XP fluids
+// Unified XP fluids.
 ServerEvents.tags('fluid', event => {
     const xpFluids = [
-        "cofh_core:experience",
-        "sophisticatedcore:xp_still"
+        "sophisticatedcore:xp_still",
+        "justdirethings:xp_fluid_source",
+        "energizedpower:liquid_xp",
+        "enderio:fluid_xp_juice_still"
         // "create_enchantment_industry:experience", // NAO ATUALIZADO AINDA
         // "mob_grinding_utils:fluid_xp" // NAO ATUALIZADO AINDA
     ]
@@ -34,19 +32,3 @@ ServerEvents.tags("block", (event) => {
     "@appmek"
   ])
 })
-
-// // Tranforma os itens de essência em nuggets (Allthemodium, Vibranium e Unobtainium)
-// ServerEvents.recipes(event => {
-//     function essenceCircle(result, essenceType) {
-//         event.shaped(result, [
-//             'AAA',
-//             'A A',
-//             'AAA'
-//         ], {
-//             A: `mysticalagriculture:${essenceType}_essence`
-//         })
-//     }
-//     essenceCircle('allthemodium:allthemodium_nugget', 'allthemodium')
-//     essenceCircle('allthemodium:vibranium_nugget', 'vibranium')
-//     essenceCircle('allthemodium:unobtainium_nugget', 'unobtainium')
-// })

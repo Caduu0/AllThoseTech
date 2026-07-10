@@ -207,31 +207,6 @@ event.custom({
 
 // Receitas customizadas do Mystical Agriculture (Infusion Crafting).
 ServerEvents.recipes(event => {
-// --------------------- Mystical Agriculture --------------------- //
-// // Magical Soil --------- CRIAR UMA RECIPE E UMA UTILIDADE PARA O ITEM, OU REMOVER...
-// event.custom({
-//     type: 'mysticalagriculture:infusion',
-    
-//     // O item que vai no Altar central
-//     input: 'kubejs:magical_soil',
-    
-//     // Os itens que vão nos Pedestais
-//     ingredients: [
-//         'kubejs:magical_soil',    // Topo-Esquerda
-//         'kubejs:magical_soil',    // Topo
-//         'kubejs:magical_soil',    // Topo-Direita
-//         'kubejs:magical_soil',    // Direita
-//         'kubejs:magical_soil',    // Baixo-Direita
-//         'kubejs:magical_soil',    // Baixo
-//         'kubejs:magical_soil',    // Baixo-Esquerda
-//         'kubejs:magical_soil'     // Esquerda
-//     ],
-//     result: {
-//         id: 'kubejs:magical_soil', 
-//         count: 1
-//     }
-// })
-
 // --------------------- Compass --------------------- //
 // Nature's Compass
 event.remove({ output: 'naturescompass:naturescompass' })
@@ -301,26 +276,131 @@ event.custom({
 // Receitas customizadas do EnderIO.
 ServerEvents.recipes(event => {
 // --------------------- Compass --------------------- //
-// Explorer's Compass
-event.remove({ output: 'explorerscompass:explorerscompass' })
-event.custom({
-    type: 'enderio:slicing',
-    energy: 9000, // Quantidade de energia necessária para processar a receita.
-    
-    // Ingredientes (de 1 a 6 itens).
-    inputs: [
-        'naturescompass:naturescompass',
-        'minecraft:recovery_compass',
-        'naturescompass:naturescompass',
-        'energizedpower:crystallized_lapis_lazuli',
-        'energizedpower:crystal_matrix',
-        'energizedpower:crystallized_lapis_lazuli'
-    ],
-    
-    // Resultado.
-    output: {
-        id: 'explorerscompass:explorerscompass',
-        count: 1
-    }
+    // Explorer's Compass
+    event.remove({ output: 'explorerscompass:explorerscompass' })
+    event.custom({
+        type: 'enderio:slicing',
+        energy: 9000, // Quantidade de energia necessária para processar a receita.
+
+        // Ingredientes (de 1 a 6 itens).
+        inputs: [
+            'naturescompass:naturescompass',
+            'minecraft:recovery_compass',
+            'naturescompass:naturescompass',
+            'energizedpower:crystallized_lapis_lazuli',
+            'energizedpower:crystal_matrix',
+            'energizedpower:crystallized_lapis_lazuli'
+        ],
+
+        // Resultado.
+        output: {
+            id: 'explorerscompass:explorerscompass',
+            count: 1
+        }
+    })
 })
+
+// ------------------------------------------ //
+
+// Receitas customizadas da Crystal Assembler (ExtendedAE).
+ServerEvents.recipes(event => {
+// --------------------- ExtendedAE --------------------- //
+    // Quantum Processor
+    event.custom({
+        type: 'extendedae:crystal_assembler',
+        energy: 2000, // Energia (AE2).
+
+        // Ingredientes (de 1 a 9 itens).
+        input_items: [
+            {
+                amount: 4, 
+                ingredient: 'advanced_ae:printed_quantum_processor'
+            },
+            {
+                amount: 4,
+                ingredient: 'ae2:printed_silicon'
+            },
+            {
+                amount: 4,
+                ingredient: 'minecraft:redstone'
+            }
+        ],
+
+        // Liquido.
+        input_fluid: {
+            ingredient: 'minecraft:water',
+            amount: 400 // Quantidade (mB).
+        },
+
+        // Resultado.
+        output: {
+            id: 'advanced_ae:quantum_processor',
+            count: 4
+        }
+    })
+    // Energy Processor
+    event.custom({
+        type: 'extendedae:crystal_assembler',
+        energy: 2000, // Energia (AE2).
+
+        // Ingredientes (de 1 a 9 itens).
+        input_items: [
+            {
+                amount: 4, 
+                ingredient: 'appflux:printed_energy_processor'
+            },
+            {
+                amount: 4,
+                ingredient: 'ae2:printed_silicon'
+            },
+            {
+                amount: 4,
+                ingredient: 'minecraft:redstone'
+            }
+        ],
+
+        // Resultado.
+        output: {
+            id: 'appflux:energy_processor',
+            count: 4
+        }
+    })
+})
+
+// Receitas customizadas da Circuit Slicer (ExtendedAE).
+ServerEvents.recipes(event => {
+// --------------------- ExtendedAE --------------------- //
+    // Printed Quantum Circuit
+    event.remove({ id: 'advanced_ae:quantum_processor_print_eae' })
+    event.custom({
+        type: 'extendedae:circuit_cutter',
+        energy: 18000, // Energia (AE2).
+    
+        // Ingrediente.
+        input: {
+            ingredient: 'advanced_ae:quantum_alloy_block'
+        },
+      
+        // Resultado
+        output: {
+            id: 'advanced_ae:printed_quantum_processor',
+            count: 9
+        }
+    })
+    // Printed Energy Circuit
+    event.custom({
+        type: 'extendedae:circuit_cutter',
+        energy: 18000, // Energia (AE2).
+    
+        // Ingrediente.
+        input: {
+            ingredient: 'appflux:charged_redstone_block'
+        },
+      
+        // Resultado
+        output: {
+            id: 'appflux:printed_energy_processor',
+            count: 9
+        }
+    })
 })

@@ -1,4 +1,4 @@
-const REMOVED_ITEMS = [
+const REMOVED_ITEMS = [ // Adicionar tambem a "server_scripts/cadu_scripts/remove.js" para bloquear o uso dos itens.
     'mysticalagriculture:limestone_seeds',
     'mysticalagriculture:limestone_essence',
     'mysticalagriculture:saltpeter_seeds',
