@@ -32,3 +32,18 @@ ServerEvents.tags("block", (event) => {
     "@appmek"
   ])
 })
+
+// Troca a Armadura de Netherite pela de Unobtainium
+ServerEvents.recipes(event => {
+const pecas = ['helmet', 'chestplate', 'leggings', 'boots'];
+pecas.forEach(peca => {
+    event.replaceInput(
+        { 
+            type: 'minecraft:crafting_shaped', 
+            output: `advanced_ae:quantum_${peca}`
+        },
+        `minecraft:netherite_${peca}`,       // Item Antigo
+        `allthemodium:unobtainium_${peca}`    // Item Novo
+    )
+})
+})

@@ -19,6 +19,33 @@
       x: -3.5,
       y: -3.5,
       shape: "gear",
+      dependencies: [
+        "299BA829DC2AC0CC",
+        "6EF122E1D570B63B",
+        "53F044B825B9733A",
+        "14172AB3FEC751BD",
+        "4377BCA32238609D",
+        "7BBC326E8689F419",
+        "51241B735D526D61",
+        "108D3BD4143E776C",
+        "60E68110B0BEB33D",
+        "243AF32E76D5DAF7",
+        "6FD8FBF28C1DE777",
+        "59CA22863B8731D5",
+        "2374B29F8F776601",
+        "2C3AD1DF78FC74E7",
+        "0222B3DFD61D690F",
+        "3A8A019F2F5E0FEF",
+        "38CEE57F41CC3169",
+        "75A189A80F46A93D",
+        "1ABC1B9EFA592EC7",
+        "0341B5384497156D",
+        "3AA3027F914B6341",
+        "544B148D050DCC4C",
+        "1E3B8D5FF92984C9",
+        "6A1DF09E06EEA680",
+        "54E2FECFE71C36DF",
+      ],
       size: 3.0,
       id: "02904FA1E49770EC",
       tasks: [
@@ -37,6 +64,390 @@
           type: "item",
           item: {
             id: "allthosetweaks:baccon",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -6.0,
+      shape: "octagon",
+      size: 1.3,
+      id: "299BA829DC2AC0CC",
+      tasks: [
+        {
+          id: "519EA0E9F7243E35",
+          type: "item",
+          item: {
+            id: "allthosetweaks:piggy_ears",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -3.5,
+      shape: "octagon",
+      size: 1.3,
+      id: "53F044B825B9733A",
+      tasks: [
+        {
+          id: "3FEA35DE4C0C085B",
+          type: "item",
+          item: {
+            id: "allthosetweaks:piggy_tail",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -3.5,
+      shape: "octagon",
+      size: 1.3,
+      id: "6EF122E1D570B63B",
+      tasks: [
+        {
+          id: "09D4AD97817C01CC",
+          type: "item",
+          item: {
+            id: "allthosetweaks:piggy_snout",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -1.0,
+      shape: "octagon",
+      size: 1.3,
+      id: "14172AB3FEC751BD",
+      tasks: [
+        {
+          id: "459568E5B1882BFF",
+          type: "item",
+          item: {
+            id: "allthosetweaks:piggy_trotters",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -3.5,
+      id: "4377BCA32238609D",
+      tasks: [
+        {
+          id: "2928ECD705E32B01",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_vibranium_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 0.5,
+      id: "108D3BD4143E776C",
+      tasks: [
+        {
+          id: "05A3E111E710FAA6",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_productivity_4",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -3.5,
+      id: "7BBC326E8689F419",
+      tasks: [
+        {
+          id: "0EE95CAA978AA135",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -7.5,
+      id: "51241B735D526D61",
+      tasks: [
+        {
+          id: "5B64FC6038BC08AC",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -7.0,
+      id: "3AA3027F914B6341",
+      tasks: [
+        {
+          id: "5289018D497E4C14",
+          type: "item",
+          item: {
+            id: "minecraft:pink_wool",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -7.0,
+      id: "75A189A80F46A93D",
+      tasks: [
+        {
+          id: "67AE0089257E8F36",
+          type: "item",
+          item: {
+            id: "minecraft:pink_wool",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 0.0,
+      id: "0341B5384497156D",
+      tasks: [
+        {
+          id: "27F7735E3072D079",
+          type: "item",
+          item: {
+            id: "minecraft:pink_wool",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: 0.0,
+      id: "544B148D050DCC4C",
+      tasks: [
+        {
+          id: "77C537EAE2B05A34",
+          type: "item",
+          item: {
+            id: "minecraft:pink_wool",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -3.5,
+      id: "6FD8FBF28C1DE777",
+      tasks: [
+        {
+          id: "4300B917D3D45DFC",
+          type: "item",
+          item: {
+            id: "minecraft:lily_of_the_valley",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 1.5,
+      id: "243AF32E76D5DAF7",
+      tasks: [
+        {
+          id: "75FE782CA55FED0E",
+          type: "item",
+          item: {
+            id: "minecraft:lily_of_the_valley",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -8.5,
+      id: "60E68110B0BEB33D",
+      tasks: [
+        {
+          id: "74D42E6606C466F2",
+          type: "item",
+          item: {
+            id: "minecraft:lily_of_the_valley",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -3.5,
+      id: "59CA22863B8731D5",
+      tasks: [
+        {
+          id: "3BE7659150FC44E3",
+          type: "item",
+          item: {
+            id: "minecraft:lily_of_the_valley",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: -2.5,
+      id: "6A1DF09E06EEA680",
+      tasks: [
+        {
+          id: "522EC8BAE56B6928",
+          type: "item",
+          item: {
+            id: "minecraft:pink_wool",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: -4.5,
+      id: "1ABC1B9EFA592EC7",
+      tasks: [
+        {
+          id: "5485C958809ECA45",
+          type: "item",
+          item: {
+            id: "minecraft:pink_wool",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -4.5,
+      id: "1E3B8D5FF92984C9",
+      tasks: [
+        {
+          id: "237C92743EC6F2E0",
+          type: "item",
+          item: {
+            id: "minecraft:pink_wool",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -2.5,
+      id: "54E2FECFE71C36DF",
+      tasks: [
+        {
+          id: "513DC5093FDF6454",
+          type: "item",
+          item: {
+            id: "minecraft:pink_wool",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -5.5,
+      id: "3A8A019F2F5E0FEF",
+      tasks: [
+        {
+          id: "7CAC081676796511",
+          type: "item",
+          item: {
+            id: "mysticalagradditions:nitro_crystal_crux",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -1.5,
+      id: "38CEE57F41CC3169",
+      tasks: [
+        {
+          id: "5624A247D70551B1",
+          type: "item",
+          item: {
+            id: "mysticalagradditions:nitro_crystal_crux",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -1.5,
+      id: "2C3AD1DF78FC74E7",
+      tasks: [
+        {
+          id: "76349D93A1E0A465",
+          type: "item",
+          item: {
+            id: "mysticalagradditions:nether_star_crux",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -5.5,
+      id: "0222B3DFD61D690F",
+      tasks: [
+        {
+          id: "7F3FBB3476E63D73",
+          type: "item",
+          item: {
+            id: "mysticalagradditions:nether_star_crux",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -4.95,
+      size: 0.9,
+      id: "2374B29F8F776601",
+      tasks: [
+        {
+          id: "792A1AAD64F40C29",
+          type: "item",
+          item: {
+            id: "allthosetweaks:crochet_needle",
             count: 1,
           },
         },

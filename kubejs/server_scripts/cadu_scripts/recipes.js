@@ -1,7 +1,7 @@
 // Receitas customizadas da crafting table.
 ServerEvents.recipes(event => {
 // --------------------- Baubley Heart ---------------------  //
-// Baubley Heart
+// Canister
 event.remove({ output: 'bhc:canister' })
 event.shaped(
   'bhc:canister',
@@ -13,6 +13,28 @@ event.shaped(
   {
     A: 'minecraft:iron_block',
     B: '#c:bones'
+  }
+)
+
+// --------------------- Iron Furnaces ---------------------  //
+// Rainbow Plating
+event.remove({ output: 'ironfurnaces:rainbow_plating' })
+event.shaped(
+  'ironfurnaces:rainbow_plating',
+  [
+    'FGD',
+    'EOV',
+    'CS '
+  ],
+  {
+    F: 'ironfurnaces:iron_furnace',
+    G: 'ironfurnaces:gold_furnace',
+    D: 'ironfurnaces:diamond_furnace',
+    E: 'ironfurnaces:emerald_furnace',
+    O: 'ironfurnaces:obsidian_furnace',
+    V: 'ironfurnaces:crystal_furnace',
+    C: 'ironfurnaces:copper_furnace',
+    S: 'ironfurnaces:silver_furnace'
   }
 )
 
@@ -179,6 +201,75 @@ event.shaped(
     U: 'allthemodium:unobtainium_ingot'
   }
 )
+
+// --------------------- Logistics Networks --------------------- //
+// Gold Upgrade
+event.remove({ output: 'logisticsnetworks:gold_upgrade' })
+event.shaped(
+  'logisticsnetworks:gold_upgrade',
+  [
+    'GHG',
+    'CUC',
+    'GHG'
+  ],
+  {
+    G: 'minecraft:gold_ingot',
+    H: 'minecraft:hopper',
+    C: '#c:chests',
+    U: 'logisticsnetworks:iron_upgrade'
+  }
+)
+
+// Diamond Upgrade
+event.remove({ output: 'logisticsnetworks:diamond_upgrade' })
+event.shaped(
+  'logisticsnetworks:diamond_upgrade',
+  [
+    'GHG',
+    'CUC',
+    'GHG'
+  ],
+  {
+    G: 'minecraft:diamond',
+    H: 'minecraft:hopper',
+    C: '#c:chests',
+    U: 'logisticsnetworks:gold_upgrade'
+  }
+)
+
+// Netherite Upgrade
+event.remove({ output: 'logisticsnetworks:netherite_upgrade' })
+event.shaped(
+  'logisticsnetworks:netherite_upgrade',
+  [
+    'GHG',
+    'CUC',
+    'GHG'
+  ],
+  {
+    G: 'minecraft:netherite_ingot',
+    H: 'minecraft:hopper',
+    C: '#c:chests',
+    U: 'logisticsnetworks:diamond_upgrade'
+  }
+)
+
+// Dimensional Upgrade
+event.remove({ output: 'logisticsnetworks:dimensional_upgrade' })
+event.shaped(
+  'logisticsnetworks:dimensional_upgrade',
+  [
+    'ONO',
+    'BUB',
+    'ONO'
+  ],
+  {
+    O: 'minecraft:crying_obsidian',
+    N: 'minecraft:nether_star',
+    B: 'minecraft:dragon_breath',
+    U: 'logisticsnetworks:netherite_upgrade'
+  }
+)
 })
 
 // ------------------------------------------ //
@@ -298,6 +389,27 @@ ServerEvents.recipes(event => {
             count: 1
         }
     })
+    //  Unobtanium Vibranium Alloy Ingot
+    event.custom({
+        type: 'enderio:slicing',
+        energy: 100000000, // Quantidade de energia necessária para processar a receita.
+
+        // Ingredientes (de 1 a 6 itens).
+        inputs: [
+            'allthemodium:unobtainium_block',
+            'allthemodium:piglich_heart',
+            'allthemodium:vibranium_block',
+            'allthemodium:vibranium_block',
+            'allthemodium:piglich_heart',
+            'allthemodium:unobtainium_block'
+        ],
+
+        // Resultado.
+        output: {
+            id: 'allthemodium:unobtainium_vibranium_alloy_ingot',
+            count: 1
+        }
+    })
 })
 
 // ------------------------------------------ //
@@ -365,6 +477,39 @@ ServerEvents.recipes(event => {
             count: 4
         }
     })
+    // Vibranium Allthemodium Alloy Ingot
+    event.custom({
+        type: 'extendedae:crystal_assembler',
+        energy: 50000000, // Energia (AE2).
+
+        // Ingredientes (de 1 a 9 itens).
+        input_items: [
+            {
+                amount: 1, 
+                ingredient: 'allthemodium:piglich_heart'
+            },
+            {
+                amount: 4,
+                ingredient: 'allthemodium:vibranium_ingot'
+            },
+            {
+                amount: 4,
+                ingredient: 'allthemodium:allthemodium_ingot'
+            }
+        ],
+
+        // Liquido.
+        input_fluid: {
+            ingredient: 'minecraft:lava',
+            amount: 1000 // Quantidade (mB).
+        },
+
+        // Resultado.
+        output: {
+            id: 'allthemodium:vibranium_allthemodium_alloy_ingot',
+            count: 1
+        }
+    })
 })
 
 // Receitas customizadas da Circuit Slicer (ExtendedAE).
@@ -401,6 +546,30 @@ ServerEvents.recipes(event => {
         output: {
             id: 'appflux:printed_energy_processor',
             count: 9
+        }
+    })
+})
+
+// Receitas customizadas do Energizing (Powah).
+ServerEvents.recipes(event => {
+    // Unobtainium Allthemodium Alloy Ingot
+    event.custom({
+        type: 'powah:energizing',
+        energy: 100000000, // Energia (FE).
+        
+        // Ingredientes (Recomendado de 1 até 6).
+        ingredients: [
+            'allthemodium:unobtainium_block',
+            'allthemodium:allthemodium_block',
+            'allthemodium:piglich_heart',
+            'allthemodium:allthemodium_block',
+            'allthemodium:unobtainium_block'
+        ],
+        
+        // Resultado.
+        result: {
+            id: 'allthemodium:unobtainium_allthemodium_alloy_ingot',
+            count: 1
         }
     })
 })
