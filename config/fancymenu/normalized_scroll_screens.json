@@ -1,4 +1,3 @@
 {
-  "title_screen": true,
-  "pause_screen": true
+  "title_screen": false
 }

@@ -3,16 +3,23 @@ ServerEvents.recipes(event => {
 // event.custom({
 //         type: 'create:mechanical_crafting',
 //         pattern: [
-//             '   A   ',
-//             '  AAA  ',
-//             ' AAAAA ',
-//             'AAAAAAA',
-//             ' AAAAA ',
-//             '  AAA  ',
-//             '   A   '
+//             '   V   ',
+//             '  LLL  ',
+//             ' BBEBB ',
+//             'VLSCRLV',
+//             ' BBTBB ',
+//             '  LLL  ',
+//             '   V   '
 //         ],
 //         key: {
-//             A: { item: 'allthosetweaks:baccon' }
+//             C: { item: 'allthosetweaks:crochet_needle' },
+//             E: { item: 'allthosetweaks:piggy_ears' },
+//             S: { item: 'allthosetweaks:piggy_snout' },
+//             R: { item: 'allthosetweaks:piggy_tail' },
+//             T: { item: 'allthosetweaks:piggy_trotters' },
+//             L: { item: 'minecraft:pink_wool' },
+//             V: { item: 'minecraft:lily_of_the_valley' },
+//             B: { item: 'allthosetweaks:baccon' }, // DECIDIR OS ITENS LATERIAS
 //         },
 //         result: {
 //             id: 'allthosetweaks:baccon',

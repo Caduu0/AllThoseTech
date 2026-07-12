@@ -1,0 +1,50 @@
+{
+  id: "5C1F0EAAD97A79F2",
+  group: "",
+  order_index: 0,
+  icon: {
+    id: "allthosetweaks:baccon",
+    count: 1,
+  },
+  filename: "a",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  autofocus_id: "02904FA1E49770EC",
+  quests: [
+    {
+      icon: {
+        id: "allthosetweaks:baccon",
+        count: 1,
+      },
+      x: -3.5,
+      y: -3.5,
+      shape: "gear",
+      size: 3.0,
+      id: "02904FA1E49770EC",
+      tasks: [
+        {
+          id: "5EBC2B2F023E364B",
+          type: "item",
+          item: {
+            id: "allthosetweaks:baccon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "558147D67D2B313A",
+          type: "item",
+          item: {
+            id: "allthosetweaks:baccon",
+            count: 1,
+          },
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+  ],
+}

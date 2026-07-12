@@ -1,35 +1,35 @@
 ##[general]
 
-I:default_gui_scale = '-1';
-B:force_fullscreen = 'false';
-B:play_vanilla_menu_music = 'true';
+I:default_gui_scale = '0';
+B:force_fullscreen = 'true';
+B:play_vanilla_menu_music = 'false';
 
 
 ##[customization]
 
-B:modpack_mode = 'true';
-B:show_customization_overlay = 'false';
-B:advanced_customization_mode = 'false';
+B:modpack_mode = 'false';
+B:show_customization_overlay = 'true';
+B:advanced_customization_mode = 'true';
 
 
 ##[loading]
 
-B:game_intro_fade_out = 'false';
+B:game_intro_fade_out = 'true';
 S:game_intro_sound_channel = 'master';
 S:preload_resources = '';
-B:allow_game_intro_skip = 'false';
+B:allow_game_intro_skip = 'true';
 S:game_intro_animation_name = '';
-F:game_intro_volume = '0.5';
+F:game_intro_volume = '1.0';
 S:custom_game_intro_skip_text = '';
 
 
 ##[window]
 
 B:show_custom_window_icon = 'true';
-S:custom_window_icon_macos = 'assets/allthosetech.png';
-S:custom_window_icon_32 = 'assets/allthosetech.png';
+S:custom_window_icon_macos = '/config/fancymenu/assets/allthosetechsfmac.icns';
+S:custom_window_icon_32 = '/config/fancymenu/assets/allthosetechsf32.png';
 S:custom_window_title = 'All Those Tech';
-S:custom_window_icon_16 = 'assets/allthosetech.png';
+S:custom_window_icon_16 = '/config/fancymenu/assets/allthosetechsf16.png';
 
 
 ##[global_customizations]
@@ -45,7 +45,7 @@ F:global_slider_label_scale = '1.0';
 S:global_button_label_base_color = '';
 S:global_button_click_sound = '';
 S:global_slider_label_base_color = '';
-B:global_button_label_underline_on_hover = 'false';
+B:global_button_label_underline_on_hover = 'true';
 I:global_button_background_nine_slice_border_right = '5';
 I:global_slider_background_nine_slice_border_top = '5';
 I:global_slider_handle_nine_slice_border_top = '5';
@@ -53,7 +53,7 @@ I:global_slider_handle_nine_slice_border_bottom = '5';
 F:global_button_label_scale = '1.0';
 S:global_slider_label_scale_raw = '';
 S:global_slider_handle_inactive = '';
-B:global_slider_label_shadow = 'true';
+B:global_slider_label_shadow = 'false';
 S:global_button_label_scale_raw = '';
 I:global_slider_handle_nine_slice_border_right = '5';
 S:global_slider_label_hover_color = '';
@@ -114,7 +114,7 @@ S:ui_scale_v2 = 'auto';
 I:context_menu_hover_open_speed = '1';
 S:ui_theme = 'dark';
 B:pip_window_docking = 'true';
-B:enable_ui_blur = 'true';
+B:enable_ui_blur = 'false';
 F:ui_blur_intensity = '3.0';
 B:use_minecraft_font = 'false';
 B:play_ui_click_sounds = 'true';
