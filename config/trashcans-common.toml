@@ -1,0 +1,2 @@
+# Allowed values: true, false - Default: false
+allowVoidingNuclearWaste = true
