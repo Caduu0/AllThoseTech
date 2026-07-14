@@ -51,4 +51,4 @@ NativeEvents.onEvent('net.neoforged.neoforge.event.entity.living.LivingGetProjec
             }
         }
     }
-});
+})

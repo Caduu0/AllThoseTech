@@ -1,41 +1,4 @@
-// Baccon (Feito pelo Mechanical Crafter do Create).
-ServerEvents.recipes(event => {
-//      event.custom({
-//         type: 'create:mechanical_crafting',
-//         pattern: [
-//             '   V   ',
-//             '  LZL  ',
-//             ' LNEML ',
-//             'VXSCRWV',
-//             ' LMTNL ',
-//             '  LOL  ',
-//             '   V   '
-//         ],
-//         key: {
-//             C: { item: 'allthosetweaks:crochet_needle' },
-//             E: { item: 'allthosetweaks:piggy_ears' },
-//             S: { item: 'allthosetweaks:piggy_snout' },
-//             R: { item: 'allthosetweaks:piggy_tail' },
-//             T: { item: 'allthosetweaks:piggy_trotters' },
-//             N: { item: 'mysticalagradditions:nitro_crystal_crux' },
-//             Z: { item: 'allthemodium:unobtainium_allthemodium_block' },
-//             X: { item: 'allthemodium:unobtainium_vibranium_block' },
-//             W: { item: 'allthemodium:vibranium_allthemodium_block' },
-//             L: { item: 'minecraft:pink_wool' },
-//             V: { item: 'minecraft:lily_of_the_valley' },
-//             O: { item: 'productivelib:upgrade_productivity_4' },
-//             M: { item: 'mysticalagradditions:nether_star_crux' }
-//         },
-//         result: {
-//             id: 'allthosetweaks:baccon',
-//             count: 1
-//         }
-//     })
-})
-// Esperar mais mods lancar e criar receita do Baccon usando todos os mods.
-
-// --------------------- Itens Creativo --------------------- //
-// Crafting Table.
+// -= Crafting Table (Minecraft). =-
 ServerEvents.recipes(event => {
     // ME Infinity Water Cell (AE2)
     event.remove({ output: 'extendedae:infinity_water_cell' })
@@ -53,7 +16,6 @@ ServerEvents.recipes(event => {
         G: 'ae2:quartz_glass'
       }
     )
-
     // ME Infinity Cobblestone Cell (AE2)
     event.remove({ output: 'extendedae:infinity_cobblestone_cell' })
     event.shaped(
@@ -71,7 +33,6 @@ ServerEvents.recipes(event => {
         G: 'ae2:quartz_glass'
       }
     )
-
     // Upgrade: Creative Battery (Mining Gadgets)
     event.remove({ output: 'mininggadgets:upgrade_battery_creative' })
     event.shaped(
@@ -88,7 +49,6 @@ ServerEvents.recipes(event => {
         R: 'minecraft:redstone_block'
       }
     )
-
     // Creative Goo (Just Dyna Things)
     event.remove({ output: 'justdynathings:creative_goo' })
     event.shaped(
@@ -108,7 +68,7 @@ ServerEvents.recipes(event => {
     )
 })
 
-// Powah (Energizeing).
+// -= Energizeing (Powah). =-
 ServerEvents.recipes(event => {
     // Energy Cell Creative (Powah)
     event.custom({
@@ -130,7 +90,6 @@ ServerEvents.recipes(event => {
             count: 1
         }
     })
-
     // Creative Energy Cell (AE2)
     event.custom({
         type: 'powah:energizing',
@@ -151,7 +110,6 @@ ServerEvents.recipes(event => {
             count: 1
         }
     })
-
     // Creative ME Storage Cell (AE2)
     event.custom({
         type: 'powah:energizing',
@@ -172,7 +130,6 @@ ServerEvents.recipes(event => {
             count: 1
         }
     })
-
     // Creative Controller (Refined Storage)
     event.custom({
         type: 'powah:energizing',
@@ -193,7 +150,6 @@ ServerEvents.recipes(event => {
             count: 1
         }
     })
-
     // Creative Energy Battery (Integrated Dynamics)
     event.custom({
         type: 'powah:energizing',
@@ -216,7 +172,7 @@ ServerEvents.recipes(event => {
     })
 })
 
-// Mystical Agriculture (Infusion).
+// -= Infusion (Mystical Agriculture). =-
 ServerEvents.recipes(event => {
     // Creative Essence
     event.custom({

@@ -33,17 +33,48 @@ ServerEvents.tags("block", (event) => {
   ])
 })
 
-// Troca a Armadura de Netherite pela de Unobtainium
+// Troca a Armadura de Netherite pela de Unobtainium.
 ServerEvents.recipes(event => {
-const pecas = ['helmet', 'chestplate', 'leggings', 'boots'];
-pecas.forEach(peca => {
-    event.replaceInput(
-        { 
-            type: 'minecraft:crafting_shaped', 
-            output: `advanced_ae:quantum_${peca}`
-        },
-        `minecraft:netherite_${peca}`,       // Item Antigo
-        `allthemodium:unobtainium_${peca}`    // Item Novo
-    )
+    const pecas = ['helmet', 'chestplate', 'leggings', 'boots'];
+    pecas.forEach(peca => {
+        event.replaceInput(
+            { 
+                type: 'minecraft:crafting_shaped', 
+                output: `advanced_ae:quantum_${peca}`
+            },
+            `minecraft:netherite_${peca}`,      // Item Antigo
+            `allthemodium:unobtainium_${peca}`  // Item Novo
+        )
+    })
 })
+
+// Abre as duas portas ao inves de so uma.
+BlockEvents.rightClicked(event => {
+    const { block, hand, player } = event;
+
+    if (hand != 'main_hand' || player.isCrouching() || !block.hasTag('minecraft:doors') || block.id.startsWith('create:')) return;
+
+    let isCurrentlyOpen = block.properties.open == 'true';
+    let facing = block.properties.facing;
+    let hinge = block.properties.hinge;
+    let willOpen = !isCurrentlyOpen;
+    let directions = ['north', 'south', 'east', 'west'];
+
+    directions.forEach(dir => {
+        let neighbor = block.offset(dir);
+        
+        if (neighbor.id == block.id) {
+            if (neighbor.properties.facing == facing && neighbor.properties.hinge != hinge) {
+
+                let newProps = {};
+                for (let key in neighbor.properties) {
+                    newProps[key] = neighbor.properties[key];
+                }
+                
+                newProps.open = willOpen ? 'true' : 'false';
+                
+                neighbor.set(neighbor.id, newProps);
+            }
+        }
+    });
 })

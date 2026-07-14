@@ -1,4 +1,4 @@
-// // Remove itens do inventário do jogador no primeiro login
+// // Remove itens do inventário do jogador no primeiro login.
 // PlayerEvents.loggedIn(event => {
 //     const { player, server } = event;
 //     if (!player.stages.has('primeiro_login')) {
@@ -26,7 +26,7 @@ const REMOVED_ITEMS = [ // Adicionar tambem a "client_scripts/cadu_scripts/remov
     'mysticalagriculture:marble_essence'
 ];
 
-// Remove as receitas que criam ou usam os itens
+// Remove as receitas que criam ou usam os itens.
 ServerEvents.recipes(event => {
     REMOVED_ITEMS.forEach(item => {
         event.remove({ id: item })
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
     })
 })
 
-// Bloqueia o jogador de usar os itens
+// Bloqueia o jogador de usar os itens.
 ItemEvents.rightClicked(event => {
     if (REMOVED_ITEMS.includes(event.item.id)) {
         event.cancel()
@@ -43,17 +43,11 @@ ItemEvents.rightClicked(event => {
     }
 })
 
-// Bloqueia o jogador de coletar/ter os itens
+// Bloqueia o jogador de coletar/ter os itens.
 PlayerEvents.inventoryChanged(event => {
     const player = event.player
     if (REMOVED_ITEMS.includes(event.item.id)) {
         player.inventory.clear(event.item.id)
         player.tell(`O item ${event.item.id} foi deletado por estar desativado.`)
     }
-})
-
-// Remove gemas do Silent Gear
-ServerEvents.recipes(event => {
-    event.remove({ id: `silentgear:emerald_from_shards` })
-    event.remove({ id: `silentgear:diamond_from_shards` })
 })
