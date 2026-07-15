@@ -6,7 +6,7 @@
     id: "allthosetweaks:baccon",
     count: 1,
   },
-  filename: "a",
+  filename: "baccon",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   autofocus_id: "02904FA1E49770EC",
@@ -73,6 +73,9 @@
       x: -3.5,
       y: -6.0,
       shape: "octagon",
+      dependencies: [
+        "0D1DBB482A040306",
+      ],
       size: 1.3,
       id: "299BA829DC2AC0CC",
       tasks: [
@@ -90,6 +93,9 @@
       x: -1.0,
       y: -3.5,
       shape: "octagon",
+      dependencies: [
+        "63146FDFDF9F6DBF",
+      ],
       size: 1.3,
       id: "53F044B825B9733A",
       tasks: [
@@ -107,6 +113,9 @@
       x: -6.0,
       y: -3.5,
       shape: "octagon",
+      dependencies: [
+        "35F71CCA819BEE4B",
+      ],
       size: 1.3,
       id: "6EF122E1D570B63B",
       tasks: [
@@ -124,6 +133,9 @@
       x: -3.5,
       y: -1.0,
       shape: "octagon",
+      dependencies: [
+        "6C7516BC965EC1E0",
+      ],
       size: 1.3,
       id: "14172AB3FEC751BD",
       tasks: [
@@ -450,6 +462,284 @@
             id: "allthosetweaks:crochet_needle",
             count: 1,
           },
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -7.0,
+      shape: "rsquare",
+      id: "0D1DBB482A040306",
+      tasks: [
+        {
+          id: "3074D3DD5D33421B",
+          type: "item",
+          item: {
+            id: "aeinfinitybooster:dimension_card",
+            count: 1,
+          },
+        },
+        {
+          id: "2EEC711B579AAB39",
+          type: "item",
+          item: {
+            id: "logisticsnetworks:dimensional_upgrade",
+            count: 1,
+          },
+        },
+        {
+          id: "33A1583A61F44424",
+          type: "item",
+          item: {
+            id: "capacitoradditions:unobtainium_capacitor",
+            count: 1,
+            components: {
+              "enderio:capacitor_data": {
+                base: 8.0,
+                specializations: {
+                },
+              },
+            },
+          },
+        },
+        {
+          id: "7DDAAEBAEC7BD8A9",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:awakened_supremium_upgrade",
+            count: 1,
+          },
+        },
+        {
+          id: "009A9A01EC59AFBD",
+          type: "item",
+          item: {
+            id: "allthemodium:alloy_mace",
+            count: 1,
+          },
+        },
+        {
+          id: "653EF525F203CF1E",
+          type: "item",
+          item: {
+            id: "productivebees:inactive_dragon_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "3A26912F8CFFC68C",
+          type: "item",
+          item: {
+            id: "kubejs:magical_soil",
+            count: 1,
+          },
+        },
+        {
+          id: "303F08D61843621A",
+          type: "item",
+          item: {
+            id: "extradisks:infinite_item_storage_disk",
+            count: 1,
+          },
+        },
+        {
+          id: "275A0953A7E8E147",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:infused_breath",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "167B784F928B6CA6",
+          type: "xp_levels",
+          xp_levels: 7,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -7.0,
+      shape: "rsquare",
+      id: "63146FDFDF9F6DBF",
+      tasks: [
+        {
+          id: "27BF54EFB0C3A768",
+          type: "item",
+          item: {
+            id: "allthosetweaks:comingsoon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7704458180D19A3D",
+          type: "xp_levels",
+          xp_levels: 7,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 0.0,
+      shape: "rsquare",
+      id: "6C7516BC965EC1E0",
+      tasks: [
+        {
+          id: "75DA63878A56C42F",
+          type: "item",
+          item: {
+            id: "allthosetweaks:comingsoon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1BB8C5DBF5F1BC3D",
+          type: "xp_levels",
+          xp_levels: 7,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 0.0,
+      shape: "rsquare",
+      id: "35F71CCA819BEE4B",
+      tasks: [
+        {
+          id: "611A25F816B578F5",
+          type: "item",
+          item: {
+            id: "energizedpower:solar_panel_7",
+            count: 1,
+          },
+        },
+        {
+          id: "42F39D799F7B7265",
+          type: "item",
+          item: {
+            id: "ironfurnaces:million_furnace",
+            count: 1,
+            components: {
+              "minecraft:custom_name": {
+                text: "",
+                extra: [
+                  {
+                    text: "R",
+                    color: "red",
+                  },
+                  {
+                    text: "a",
+                    color: "green",
+                  },
+                  {
+                    text: "i",
+                    color: "green",
+                  },
+                  {
+                    text: "n",
+                    color: "aqua",
+                  },
+                  {
+                    text: "b",
+                    color: "aqua",
+                  },
+                  {
+                    text: "o",
+                    color: "blue",
+                  },
+                  {
+                    text: "w",
+                    color: "light_purple",
+                  },
+                  {
+                    text: " ",
+                    color: "light_purple",
+                  },
+                  {
+                    text: "F",
+                    color: "red",
+                  },
+                  {
+                    text: "u",
+                    color: "blue",
+                  },
+                  {
+                    text: "r",
+                    color: "green",
+                  },
+                  {
+                    text: "n",
+                    color: "yellow",
+                  },
+                  {
+                    text: "a",
+                    color: "blue",
+                  },
+                  {
+                    text: "c",
+                    color: "light_purple",
+                  },
+                  {
+                    text: "e",
+                    color: "light_purple",
+                  },
+                ],
+              },
+            },
+          },
+        },
+        {
+          id: "0D5914CA8750F9D9",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:occult_ender_lead",
+            count: 1,
+          },
+        },
+        {
+          id: "340656319CBAE389",
+          type: "item",
+          item: {
+            id: "explorerscompass:explorerscompass",
+            count: 1,
+          },
+        },
+        {
+          id: "7146FE2124CE6388",
+          type: "item",
+          item: {
+            id: "minecraft:dragon_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "5FE568B41A462BEA",
+          type: "item",
+          item: {
+            id: "aether_ii:golden_amber_block",
+            count: 1,
+          },
+        },
+        {
+          id: "39BEA741355FF77F",
+          type: "item",
+          item: {
+            id: "allthosetweaks:comingsoon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "096AA332235269DE",
+          type: "xp_levels",
+          xp_levels: 7,
         },
       ],
     },

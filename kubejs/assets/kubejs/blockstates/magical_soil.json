@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "kubejs:block/magical_soil"
+      "model": "minecraft:block/coarse_dirt"
     }
   }
 }

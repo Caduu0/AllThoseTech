@@ -1,3 +1,13 @@
+// Debug World
+let shouldFreeze = false // Mude para true caso de algum problema com seu mundo.
+
+if (shouldFreeze) {
+  ServerEvents.loaded((event) => {
+    event.server.tell("Starting server frozen...")
+    event.server.runCommandSilent("tick freeze")
+  })
+}
+
 // ServerEvents.tags('item', event => {  // MOD NAO ATUALIZADO AINDA
 //     event.add('curios:face', 'create:goggles');
 // })

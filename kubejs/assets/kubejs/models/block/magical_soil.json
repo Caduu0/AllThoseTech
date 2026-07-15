@@ -1,8 +1,6 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "minecraft:block/coarse_dirt",
   "textures": {
-    "side": "kubejs:block/magical_soil_side",
-    "bottom": "minecraft:block/dirt",
-    "top": "kubejs:block/magical_soil_top"
+    "all": "minecraft:block/coarse_dirt"
   }
 }

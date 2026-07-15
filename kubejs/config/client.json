@@ -1,7 +1,7 @@
 {
   "window_title": "All Those Tech",
-  "disable_recipe_book": true,
-  "export_atlases": false,
+  "disable_recipe_book": false,
+  "export_atlases": true,
   "blur_scaled_pack_icon": true,
   "custom_stack_size_text": true,
   "shrink_stack_size_text": true
