@@ -1,5 +1,8 @@
 {
-	"announcements.click_here": "Clique aqui para descartar",
-	"announcements.dismiss_up_to_version": "[Descartar anúncios até a versão %s]",
-	"announcements.dismissed_up_to_version": "Anúncios descartados até a versão %s!"
+    "announcements.click_here": "Haz clic aquí para descartar",
+    "announcements.dismiss_up_to_version": "[Descartar anuncios hasta la versión %s]",
+    "announcements.dismissed_up_to_version": "¡Anuncios descartados hasta la versión %s!",
+    "announcements.version": "All Those Tech está en versión beta, espera errores y problemas. Por favor, infórmalos en el GitHub del modpack.",
+    "announcements.update_title": "¡Nueva actualización disponible!",
+    "announcements.update_body": "¡La versión %s ya está disponible!"
 }

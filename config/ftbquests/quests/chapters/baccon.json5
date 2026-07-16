@@ -68,6 +68,18 @@
           },
         },
         {
+          id: "78CF5BEE54941B69",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 5196609362437981520,
+        },
+        {
+          id: "69BA69151CD2FE6F",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
+        {
           id: "6544DE3B8BFAB097",
           type: "xp_levels",
           xp_levels: 777,
@@ -94,6 +106,18 @@
         },
       ],
       rewards: [
+        {
+          id: "3C5A8F697129EA6D",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 5196609362437981520,
+        },
+        {
+          id: "780FD53D4D32B686",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
         {
           id: "6F1D89B1B8E95B46",
           type: "xp_levels",
@@ -122,6 +146,18 @@
       ],
       rewards: [
         {
+          id: "4AA9FFCBD23A1434",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 5196609362437981520,
+        },
+        {
+          id: "3E06A338DA5FA135",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
+        {
           id: "752F299822B56B09",
           type: "xp_levels",
           xp_levels: 77,
@@ -149,6 +185,18 @@
       ],
       rewards: [
         {
+          id: "1ADB4FC13B7E2773",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 5196609362437981520,
+        },
+        {
+          id: "1799DCAD0985E512",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
+        {
           id: "3CD6460BF081642C",
           type: "xp_levels",
           xp_levels: 77,
@@ -175,6 +223,18 @@
         },
       ],
       rewards: [
+        {
+          id: "5073F54F27D0B206",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 5196609362437981520,
+        },
+        {
+          id: "67427505694FA16E",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
         {
           id: "11C61138224A1453",
           type: "xp_levels",
@@ -649,6 +709,7 @@
       x: -6.0,
       y: -7.0,
       shape: "rsquare",
+      hide_dependent_lines: true,
       id: "0D1DBB482A040306",
       tasks: [
         {
@@ -733,6 +794,12 @@
       ],
       rewards: [
         {
+          id: "7FB3E1EE67A897EB",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
+        {
           id: "167B784F928B6CA6",
           type: "xp_levels",
           xp_levels: 7,
@@ -743,6 +810,7 @@
       x: -1.0,
       y: -7.0,
       shape: "rsquare",
+      hide_dependent_lines: true,
       id: "63146FDFDF9F6DBF",
       tasks: [
         {
@@ -756,6 +824,12 @@
       ],
       rewards: [
         {
+          id: "3747C358E97F8573",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
+        {
           id: "7704458180D19A3D",
           type: "xp_levels",
           xp_levels: 7,
@@ -766,6 +840,7 @@
       x: -1.0,
       y: 0.0,
       shape: "rsquare",
+      hide_dependent_lines: true,
       id: "6C7516BC965EC1E0",
       tasks: [
         {
@@ -779,6 +854,12 @@
       ],
       rewards: [
         {
+          id: "23C34AA13314F32D",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
+        {
           id: "1BB8C5DBF5F1BC3D",
           type: "xp_levels",
           xp_levels: 7,
@@ -789,6 +870,7 @@
       x: -6.0,
       y: 0.0,
       shape: "rsquare",
+      hide_dependent_lines: true,
       id: "35F71CCA819BEE4B",
       tasks: [
         {
@@ -917,9 +999,174 @@
       ],
       rewards: [
         {
+          id: "74173C06848EF2BC",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
+        {
           id: "096AA332235269DE",
           type: "xp_levels",
           xp_levels: 7,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:gold_block",
+        count: 1,
+      },
+      x: -3.5,
+      y: -10.5,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "0A04F37765821E6C",
+      ],
+      size: 2.0,
+      id: "510B17DFCADFD278",
+      tasks: [
+        {
+          id: "112B5C9FC2F9A131",
+          type: "stat",
+          stat: "minecraft:play_time",
+          value: 72000,
+        },
+      ],
+      rewards: [
+        {
+          id: "30688CF6A2490A10",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 5871764666515020368,
+        },
+        {
+          id: "671D64F06B73B956",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7103619844063962425,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:diamond_block",
+        count: 1,
+      },
+      x: 3.5,
+      y: -3.5,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "510B17DFCADFD278",
+      ],
+      size: 2.0,
+      id: "4D793CE3B0AEE7E4",
+      tasks: [
+        {
+          id: "4AA1A2B7F4023FC9",
+          type: "stat",
+          stat: "minecraft:play_time",
+          value: 720000,
+        },
+      ],
+      rewards: [
+        {
+          id: "5C75E13A3785016B",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
+        },
+        {
+          id: "25D5EFEE8945B252",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
+        },
+        {
+          id: "34A70D9C0D816528",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:netherite_block",
+        count: 1,
+      },
+      x: -3.5,
+      y: 3.5,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "4D793CE3B0AEE7E4",
+      ],
+      size: 2.0,
+      id: "1BF6F3A1398A1DF0",
+      tasks: [
+        {
+          id: "058A51DF99B6A62D",
+          type: "stat",
+          stat: "minecraft:play_time",
+          value: 1728000,
+        },
+      ],
+      rewards: [
+        {
+          id: "71A5C37324133B43",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
+        {
+          id: "41C638BE7CCA48DC",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
+        },
+        {
+          id: "66CB5E43B8393A4F",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: -3.5,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependency_requirement: "one_started",
+      size: 2.0,
+      hide_details_until_startable: false,
+      id: "0A04F37765821E6C",
+      tasks: [
+        {
+          id: "0EC7E9025E185B3B",
+          type: "stat",
+          icon: {
+            id: "minecraft:iron_block",
+            count: 1,
+          },
+          stat: "minecraft:play_time",
+          value: 12000,
+        },
+      ],
+      rewards: [
+        {
+          id: "60015C01B3086D1E",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 1234064663422651404,
+        },
+        {
+          id: "08302BA4ECC816CE",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 8502370445492231902,
         },
       ],
     },

@@ -1,0 +1,604 @@
+{
+  id: "6295209C90D92539",
+  order_index: 8,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "4BF9F8060E210B26",
+      item: {
+        id: "minecraft:wheat_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "69D48CF26517E63D",
+      item: {
+        id: "minecraft:pumpkin_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "695E45BEB322B43F",
+      item: {
+        id: "minecraft:melon_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "1A30831B9125B7F4",
+      item: {
+        id: "minecraft:beetroot_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "25FD586073A2261E",
+      item: {
+        id: "minecraft:torchflower_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "52349C67FCE6B831",
+      item: {
+        id: "croptopia:zucchini_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "1A2933C972DCB7B0",
+      item: {
+        id: "croptopia:yam_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "1ACA65ECE986EDB2",
+      item: {
+        id: "croptopia:vanilla_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "36888D396CA38B82",
+      item: {
+        id: "croptopia:turnip_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60001",
+      item: {
+        id: "minecraft:pitcher_pod",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60002",
+      item: {
+        id: "croptopia:artichoke_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60003",
+      item: {
+        id: "croptopia:asparagus_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60004",
+      item: {
+        id: "croptopia:bellpepper_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60005",
+      item: {
+        id: "croptopia:blackbean_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60006",
+      item: {
+        id: "croptopia:blackberry_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60007",
+      item: {
+        id: "croptopia:blueberry_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60008",
+      item: {
+        id: "croptopia:broccoli_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60009",
+      item: {
+        id: "croptopia:cabbage_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6000A",
+      item: {
+        id: "croptopia:cantaloupe_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6000B",
+      item: {
+        id: "croptopia:cauliflower_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6000C",
+      item: {
+        id: "croptopia:celery_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6000D",
+      item: {
+        id: "croptopia:coffee_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6000E",
+      item: {
+        id: "croptopia:corn_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6000F",
+      item: {
+        id: "croptopia:cranberry_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60010",
+      item: {
+        id: "croptopia:cucumber_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60011",
+      item: {
+        id: "croptopia:eggplant_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60012",
+      item: {
+        id: "croptopia:garlic_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60013",
+      item: {
+        id: "croptopia:grape_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60014",
+      item: {
+        id: "croptopia:greenbean_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60015",
+      item: {
+        id: "croptopia:honeydew_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60016",
+      item: {
+        id: "croptopia:hops_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60017",
+      item: {
+        id: "croptopia:kale_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60019",
+      item: {
+        id: "croptopia:leek_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6001A",
+      item: {
+        id: "croptopia:lettuce_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6001B",
+      item: {
+        id: "croptopia:mustard_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6001C",
+      item: {
+        id: "croptopia:oat_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6001D",
+      item: {
+        id: "croptopia:olive_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6001E",
+      item: {
+        id: "croptopia:onion_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6001F",
+      item: {
+        id: "croptopia:peanut_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60020",
+      item: {
+        id: "croptopia:pepper_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60021",
+      item: {
+        id: "croptopia:pineapple_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60022",
+      item: {
+        id: "croptopia:radish_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60023",
+      item: {
+        id: "croptopia:raspberry_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60024",
+      item: {
+        id: "croptopia:rhubarb_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60025",
+      item: {
+        id: "croptopia:rice_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60026",
+      item: {
+        id: "croptopia:rutabaga_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60027",
+      item: {
+        id: "croptopia:soybean_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60028",
+      item: {
+        id: "croptopia:spinach_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F60029",
+      item: {
+        id: "croptopia:squash_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6002A",
+      item: {
+        id: "croptopia:strawberry_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6002B",
+      item: {
+        id: "croptopia:sweetpotato_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "11B2C3D4E5F6002C",
+      item: {
+        id: "croptopia:tomato_seed",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60001",
+      item: {
+        id: "mysticalagriculture:dirt_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60002",
+      item: {
+        id: "mysticalagriculture:wood_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60003",
+      item: {
+        id: "mysticalagriculture:water_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60004",
+      item: {
+        id: "mysticalagriculture:fire_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60005",
+      item: {
+        id: "mysticalagriculture:earth_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60006",
+      item: {
+        id: "mysticalagriculture:stone_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60007",
+      item: {
+        id: "mysticalagriculture:nature_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60008",
+      item: {
+        id: "mysticalagriculture:dye_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60009",
+      item: {
+        id: "mysticalagriculture:nether_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A6000A",
+      item: {
+        id: "mysticalagriculture:coal_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A6000B",
+      item: {
+        id: "mysticalagriculture:iron_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A6000C",
+      item: {
+        id: "mysticalagriculture:gold_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A6000D",
+      item: {
+        id: "mysticalagriculture:diamond_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A6000E",
+      item: {
+        id: "mysticalagriculture:emerald_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A6000F",
+      item: {
+        id: "mysticalagriculture:redstone_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60010",
+      item: {
+        id: "mysticalagriculture:lapis_lazuli_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60011",
+      item: {
+        id: "mysticalagriculture:nether_quartz_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60012",
+      item: {
+        id: "mysticalagriculture:glowstone_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60013",
+      item: {
+        id: "mysticalagriculture:obsidian_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60014",
+      item: {
+        id: "mysticalagriculture:copper_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60015",
+      item: {
+        id: "mysticalagriculture:tin_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60016",
+      item: {
+        id: "mysticalagriculture:lead_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60017",
+      item: {
+        id: "mysticalagriculture:silver_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60018",
+      item: {
+        id: "mysticalagriculture:zombie_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60019",
+      item: {
+        id: "mysticalagriculture:skeleton_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A6001A",
+      item: {
+        id: "mysticalagriculture:creeper_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A6001B",
+      item: {
+        id: "mysticalagriculture:spider_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A6001C",
+      item: {
+        id: "mysticalagriculture:slime_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A6001D",
+      item: {
+        id: "mysticalagriculture:enderman_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A6001E",
+      item: {
+        id: "mysticalagriculture:wither_skeleton_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A6001F",
+      item: {
+        id: "mysticalagriculture:experience_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60020",
+      item: {
+        id: "mysticalagriculture:netherite_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "21C2D3E4F5A60021",
+      item: {
+        id: "mysticalagriculture:inferium_seeds",
+        count: 1,
+      },
+    },
+  ],
+}

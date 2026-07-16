@@ -1,5 +1,8 @@
 {
-	"announcements.click_here": "Haz clic aquí para cerrar",
-	"announcements.dismiss_up_to_version": "[Descartar anuncios hasta la versión %s]",
-	"announcements.dismissed_up_to_version": "Anuncios descartados hasta la versión %s!"
+    "announcements.click_here": "Click here to dismiss",
+    "announcements.dismiss_up_to_version": "[Dismiss announcements up to version %s]",
+    "announcements.dismissed_up_to_version": "Announcements dismissed up to version %s!",
+    "announcements.version": "All Those Tech is in beta version, expect bugs and issues. Please report them on the modpack's GitHub.",
+    "announcements.update_title": "New update available!",
+    "announcements.update_body": "Version %s is available!"
 }

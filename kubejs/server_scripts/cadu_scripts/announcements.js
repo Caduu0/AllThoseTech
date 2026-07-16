@@ -12,7 +12,7 @@ let currentVersion = null
 // kubejs/assets/lang/es_es.json
 
 function initAnnouncements() {
-  addAnnouncement("0.0.12", "All Those Tech is beta version, expect bugs and issues. Please report them on the modpack's GitHub.")
+  addAnnouncement("0.0.1", Text.translatable("announcements.version"))
 }
 
 ServerEvents.loaded((event) => {
@@ -35,58 +35,58 @@ function addAnnouncement(
 
 PlayerEvents.loggedIn((event) => {
   if (currentVersion == null) return
-  let currentDismissed = event.player.persistentData.getString("LastDismissedAnnouncementVersion")
-  if (currentDismissed == null) {
+  
+  let currentDismissedStr = event.player.persistentData.getString("LastDismissedAnnouncementVersion")
+  let currentDismissed
+  
+  if (currentDismissedStr == null || currentDismissedStr === "") {
     currentDismissed = new $DefaultArtifactVersion("0.0.0")
   } else {
-    currentDismissed = new $DefaultArtifactVersion(currentDismissed)
+    currentDismissed = new $DefaultArtifactVersion(currentDismissedStr)
   }
-  let ableToDismiss = false
-  let printHeader = true
-  announcements.forEach((key, listComponents) => {
-    if (currentDismissed.compareTo(key) < 0 && currentVersion.compareTo(key) >= 0) {
-      ableToDismiss = true
-      if (printHeader) {
-        event.player.tell(
-          Text.translatable("=====[  %s  ]=====", Text.cyan("All Those Tech").bold()).gold().bold()
-        )
-        printHeader = false
-      }
+
+  if (currentDismissed.compareTo(currentVersion) >= 0) return
+  let pendingAnnouncements = announcements.subMap(currentDismissed, false, currentVersion, true)
+
+  if (!pendingAnnouncements.isEmpty()) {
+    event.player.tell(
+      Text.translatable("=====[  %s  ]=====", Text.cyan("All Those Tech").bold()).gold().bold()
+    )
+    pendingAnnouncements.forEach((key, listComponents) => {
       for (let component of listComponents) {
         let message = Text.translatable("[%s] - %s", Text.gold(key.toString()), component.cyan()).cyan()
         event.player.tell(message)
       }
-    }
-  })
-
-  if (ableToDismiss) {
+    })
+    // Botão clicável que executa o comando para dispensar
     let message = Text.translatable("announcements.dismiss_up_to_version", Text.blue(currentVersion.toString()))
       .green()
       .hover(Text.translatable("announcements.click_here"))
       .clickRunCommand("/dismiss_announcements")
-
     event.player.tell(message)
   }
 })
 
 ServerEvents.basicPublicCommand("dismiss_announcements", (event) => {
   let player = event.player
-  if (player == null) {
-    event.cancel("Player was not found!")
+
+  if (player == null || !player.isPlayer()) {
+    event.cancel("Player was not found or command was executed by console!")
+    return
+  } 
+  
+  let pData = player.getPersistentData()
+  if (event.input == "clear") {
+    pData.putString("LastDismissedAnnouncementVersion", "0.0.0")
+    event.respond(Text.cyan("Cleared dismissed version!"))
   } else {
-    let pData = player.getPersistentData()
-    if (event.input == "clear") {
-      pData.putString("LastDismissedAnnouncementVersion", "0.0.0")
-      event.respond(Text.cyan("Cleared dismissed version!"))
+    if (currentVersion == null) {
+      event.cancel("Current version of the modpack is null, is BetterCompatibilityCheck installed?")
     } else {
-      if (currentVersion == null) {
-        event.cancel("Current version of the modpack is null, is BetterCompatibilityCheck installed?")
-      } else {
-        pData.putString("LastDismissedAnnouncementVersion", currentVersion.toString())
-        event.respond(
-          Text.translatable("announcements.dismissed_up_to_version", currentVersion.toString()).cyan()
-        )
-      }
+      pData.putString("LastDismissedAnnouncementVersion", currentVersion.toString())
+      event.respond(
+        Text.translatable("announcements.dismissed_up_to_version", currentVersion.toString()).cyan()
+      )
     }
   }
 })
