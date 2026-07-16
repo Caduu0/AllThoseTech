@@ -307,6 +307,60 @@ ServerEvents.recipes(event => {
         C: 'capacitoradditions:vibranium_capacitor'
       }
     )
+// --------------------- AllTheModium --------------------- //
+    // Alloy Paxel
+    event.shaped(
+      'allthemodium:alloy_paxel',
+      [
+        'EUM',
+        'PV ',
+        ' A '
+      ],
+      {
+        A: 'allthemodium:allthemodium_rod',
+        V: 'allthemodium:vibranium_rod',
+        U: 'allthemodium:unobtainium_rod',
+        E: 'allthemodium:alloy_sword',
+        M: 'allthemodium:alloy_axe',
+        P: 'allthemodium:alloy_shovel'
+      }
+    )
+    // Allthemodium Griding Ball
+    event.shaped(
+      'grindingballadditions:allthemodium_grindingball',
+      [
+        ' A ',
+        'AAA',
+        ' A '
+      ],
+      {
+        A: 'allthemodium:allthemodium_ingot'
+      }
+    )
+    // Vibranium Griding Ball
+    event.shaped(
+      'grindingballadditions:vibranium_grindingball',
+      [
+        ' A ',
+        'AAA',
+        ' A '
+      ],
+      {
+        A: 'allthemodium:vibranium_ingot'
+      }
+    )
+    // Unobtainium Griding Ball
+    event.shaped(
+      'grindingballadditions:unobtainium_grindingball',
+      [
+        ' A ',
+        'AAA',
+        ' A '
+      ],
+      {
+        A: 'allthemodium:unobtainium_ingot'
+      }
+    )
 })
 
 // ------------------------------------------ //
@@ -340,6 +394,20 @@ ServerEvents.recipes(event => {
         // Resultado final
         result: {
             id: 'allthemodium:alloy_mace'
+        }
+    })
+    // Allthemodium Alloy Trident
+    event.custom({
+        type: 'minecraft:smithing_transform',
+
+        // Os 3 inputs
+        template: 'allthemodium:unobtainium_allthemodium_alloy_dust', // Esquerda
+        base: 'minecraft:trident',                                    // Meio
+        addition: 'allthemodium:unobtainium_vibranium_alloy_dust',    // Direita
+
+        // Resultado final
+        result: {
+            id: 'allthemodium:alloy_trident'
         }
     })
 })

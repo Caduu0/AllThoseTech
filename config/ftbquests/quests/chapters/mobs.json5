@@ -28,6 +28,13 @@
           value: 1,
         },
       ],
+      rewards: [
+        {
+          id: "67A8259735EFB0BF",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
     },
     {
       x: -0.5,
@@ -49,6 +56,13 @@
           },
           entity: "minecraft:zombie",
           value: 20,
+        },
+      ],
+      rewards: [
+        {
+          id: "7E981BE102BF24E3",
+          type: "xp_levels",
+          xp_levels: 20,
         },
       ],
     },
@@ -73,6 +87,13 @@
           value: 77,
         },
       ],
+      rewards: [
+        {
+          id: "6E134653AE9378F9",
+          type: "xp_levels",
+          xp_levels: 77,
+        },
+      ],
     },
     {
       x: -0.5,
@@ -95,6 +116,13 @@
           value: 150,
         },
       ],
+      rewards: [
+        {
+          id: "7A014A3512ECA493",
+          type: "xp_levels",
+          xp_levels: 150,
+        },
+      ],
     },
     {
       x: 1.5,
@@ -115,6 +143,13 @@
           },
           entity: "minecraft:skeleton",
           value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "0349838A947ED180",
+          type: "xp_levels",
+          xp_levels: 1,
         },
       ],
     },
@@ -141,6 +176,13 @@
           },
           entity: "minecraft:skeleton",
           value: 20,
+        },
+      ],
+      rewards: [
+        {
+          id: "18BD64B363A3C01D",
+          type: "xp_levels",
+          xp_levels: 20,
         },
       ],
     },
@@ -177,6 +219,13 @@
           value: 150,
         },
       ],
+      rewards: [
+        {
+          id: "53C721DAF18359BF",
+          type: "xp_levels",
+          xp_levels: 150,
+        },
+      ],
     },
     {
       x: 3.5,
@@ -197,6 +246,13 @@
           },
           entity: "minecraft:creeper",
           value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "543D9198F4090390",
+          type: "xp_levels",
+          xp_levels: 1,
         },
       ],
     },
@@ -221,6 +277,13 @@
           value: 20,
         },
       ],
+      rewards: [
+        {
+          id: "2C431A3A501CC39C",
+          type: "xp_levels",
+          xp_levels: 20,
+        },
+      ],
     },
     {
       x: 3.5,
@@ -241,6 +304,13 @@
           },
           entity: "minecraft:creeper",
           value: 77,
+        },
+      ],
+      rewards: [
+        {
+          id: "7737378C29BCC691",
+          type: "xp_levels",
+          xp_levels: 77,
         },
       ],
     },
@@ -265,6 +335,13 @@
           value: 150,
         },
       ],
+      rewards: [
+        {
+          id: "627F09D4BD3D7F61",
+          type: "xp_levels",
+          xp_levels: 150,
+        },
+      ],
     },
     {
       x: 5.5,
@@ -285,6 +362,13 @@
           },
           entity: "minecraft:enderman",
           value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "587A60AFDE63E5DC",
+          type: "xp_levels",
+          xp_levels: 1,
         },
       ],
     },
@@ -309,6 +393,13 @@
           value: 20,
         },
       ],
+      rewards: [
+        {
+          id: "13FD3718BBDA516D",
+          type: "xp_levels",
+          xp_levels: 20,
+        },
+      ],
     },
     {
       x: 5.5,
@@ -329,6 +420,13 @@
           },
           entity: "minecraft:enderman",
           value: 77,
+        },
+      ],
+      rewards: [
+        {
+          id: "7DA78AA76C227EB8",
+          type: "xp_levels",
+          xp_levels: 77,
         },
       ],
     },
@@ -353,6 +451,13 @@
           value: 150,
         },
       ],
+      rewards: [
+        {
+          id: "55865039A6997D65",
+          type: "xp_levels",
+          xp_levels: 150,
+        },
+      ],
     },
     {
       x: 0.5,
@@ -373,6 +478,22 @@
           },
           entity: "minecraft:ender_dragon",
           value: 7,
+        },
+      ],
+      rewards: [
+        {
+          id: "59588501464C9BC5",
+          type: "item",
+          item: {
+            id: "minecraft:end_crystal",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "3F327259E461CC8F",
+          type: "xp_levels",
+          xp_levels: 200,
         },
       ],
     },
@@ -397,6 +518,13 @@
           value: 77,
         },
       ],
+      rewards: [
+        {
+          id: "6306B3C88638BA1F",
+          type: "xp_levels",
+          xp_levels: 77,
+        },
+      ],
     },
     {
       x: 4.5,
@@ -417,6 +545,21 @@
           },
           entity: "minecraft:warden",
           value: 7,
+        },
+      ],
+      rewards: [
+        {
+          id: "7CC618833987104A",
+          type: "item",
+          item: {
+            id: "minecraft:warden_spawn_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "5134B7E7A1599D42",
+          type: "xp_levels",
+          xp_levels: 200,
         },
       ],
     },

@@ -67,6 +67,11 @@
             count: 1,
           },
         },
+        {
+          id: "6544DE3B8BFAB097",
+          type: "xp_levels",
+          xp_levels: 777,
+        },
       ],
     },
     {
@@ -86,6 +91,13 @@
             id: "allthosetweaks:piggy_ears",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F1D89B1B8E95B46",
+          type: "xp_levels",
+          xp_levels: 77,
         },
       ],
     },
@@ -108,6 +120,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "752F299822B56B09",
+          type: "xp_levels",
+          xp_levels: 77,
+        },
+      ],
     },
     {
       x: -6.0,
@@ -126,6 +145,13 @@
             id: "allthosetweaks:piggy_snout",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "3CD6460BF081642C",
+          type: "xp_levels",
+          xp_levels: 77,
         },
       ],
     },
@@ -148,6 +174,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "11C61138224A1453",
+          type: "xp_levels",
+          xp_levels: 77,
+        },
+      ],
     },
     {
       x: -7.5,
@@ -161,6 +194,13 @@
             id: "allthemodium:unobtainium_vibranium_block",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "137E260963A99F69",
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -178,6 +218,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "3F2240E565AB8B5A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
     },
     {
       x: 0.5,
@@ -191,6 +238,13 @@
             id: "allthemodium:vibranium_allthemodium_block",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "112AE75DC19F323A",
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -208,6 +262,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "762B5F5F78EDEEBE",
+          type: "xp",
+          xp: 100,
+        },
+      ],
     },
     {
       x: -4.5,
@@ -221,6 +282,13 @@
             id: "minecraft:pink_wool",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "37C7AF8BFEA8BD0E",
+          type: "xp",
+          xp: 10,
         },
       ],
     },
@@ -238,6 +306,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "029A258A1B88DD7F",
+          type: "xp",
+          xp: 10,
+        },
+      ],
     },
     {
       x: -4.5,
@@ -251,6 +326,13 @@
             id: "minecraft:pink_wool",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "379280CF79F792C3",
+          type: "xp",
+          xp: 10,
         },
       ],
     },
@@ -268,6 +350,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "595F9D5795CEE21B",
+          type: "xp",
+          xp: 10,
+        },
+      ],
     },
     {
       x: 1.5,
@@ -281,6 +370,13 @@
             id: "minecraft:lily_of_the_valley",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "64E9FE47636CBD51",
+          type: "xp",
+          xp: 10,
         },
       ],
     },
@@ -298,6 +394,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "09B3896268A960F7",
+          type: "xp",
+          xp: 10,
+        },
+      ],
     },
     {
       x: -3.5,
@@ -311,6 +414,13 @@
             id: "minecraft:lily_of_the_valley",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "5692E45E412C5819",
+          type: "xp",
+          xp: 10,
         },
       ],
     },
@@ -328,6 +438,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "026C83B3C4CBFE41",
+          type: "xp",
+          xp: 10,
+        },
+      ],
     },
     {
       x: -7.0,
@@ -341,6 +458,13 @@
             id: "minecraft:pink_wool",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B6C2E89C327BBD0",
+          type: "xp",
+          xp: 10,
         },
       ],
     },
@@ -358,6 +482,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "1013DD0C4FF55585",
+          type: "xp",
+          xp: 10,
+        },
+      ],
     },
     {
       x: 0.0,
@@ -371,6 +502,13 @@
             id: "minecraft:pink_wool",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F75C2182559DBBD",
+          type: "xp",
+          xp: 10,
         },
       ],
     },
@@ -388,6 +526,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "103771E2CBBC1ED3",
+          type: "xp",
+          xp: 10,
+        },
+      ],
     },
     {
       x: -5.5,
@@ -401,6 +546,13 @@
             id: "mysticalagradditions:nitro_crystal_crux",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "6A00D6413909E3D3",
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -418,6 +570,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "488FBCCC2AB9EEFE",
+          type: "xp",
+          xp: 100,
+        },
+      ],
     },
     {
       x: -5.5,
@@ -431,6 +590,13 @@
             id: "mysticalagradditions:nether_star_crux",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "2907D157884AD5EC",
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -448,6 +614,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "0DA8B36A798AB2CB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
     },
     {
       x: -4.5,
@@ -462,6 +635,13 @@
             id: "allthosetweaks:crochet_needle",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "5111616639BB9697",
+          type: "xp",
+          xp: 10,
         },
       ],
     },
