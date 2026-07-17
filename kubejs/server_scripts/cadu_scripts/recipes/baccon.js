@@ -1,37 +1,39 @@
 // -= Mechanical Crafter (Create). =- (Baccon)
-ServerEvents.recipes(event => {
-//      event.custom({
-//         type: 'create:mechanical_crafting',
-//         pattern: [
-//             '   V   ',
-//             '  LZL  ',
-//             ' LNEML ',
-//             'VXSCRWV',
-//             ' LMTNL ',
-//             '  LOL  ',
-//             '   V   '
-//         ],
-//         key: {
-//             C: { item: 'allthosetweaks:crochet_needle' },
-//             E: { item: 'allthosetweaks:piggy_ears' },
-//             S: { item: 'allthosetweaks:piggy_snout' },
-//             R: { item: 'allthosetweaks:piggy_tail' },
-//             T: { item: 'allthosetweaks:piggy_trotters' },
-//             N: { item: 'mysticalagradditions:nitro_crystal_crux' },
-//             Z: { item: 'allthemodium:unobtainium_allthemodium_block' },
-//             X: { item: 'allthemodium:unobtainium_vibranium_block' },
-//             W: { item: 'allthemodium:vibranium_allthemodium_block' },
-//             L: { item: 'minecraft:pink_wool' },
-//             V: { item: 'minecraft:lily_of_the_valley' },
-//             O: { item: 'productivelib:upgrade_productivity_4' },
-//             M: { item: 'mysticalagradditions:nether_star_crux' }
-//         },
-//         result: {
-//             id: 'allthosetweaks:baccon',
-//             count: 1
-//         }
-//     })
-}) // Esperar mais mods lancar e criar receita do Baccon usando todos os mods.
+if (Platform.isLoaded("create")) {
+  ServerEvents.recipes(event => {
+     event.custom({
+        type: 'create:mechanical_crafting',
+        pattern: [
+            '   V   ',
+            '  LZL  ',
+            ' LNEML ',
+            'VXSCRWV',
+            ' LMTNL ',
+            '  LOL  ',
+            '   V   '
+        ],
+        key: {
+            C: { item: 'allthosetweaks:crochet_needle' },
+            E: { item: 'allthosetweaks:piggy_ears' },
+            S: { item: 'allthosetweaks:piggy_snout' },
+            R: { item: 'allthosetweaks:piggy_tail' },
+            T: { item: 'allthosetweaks:piggy_trotters' },
+            N: { item: 'mysticalagradditions:nitro_crystal_crux' },
+            Z: { item: 'allthemodium:unobtainium_allthemodium_block' },
+            X: { item: 'allthemodium:unobtainium_vibranium_block' },
+            W: { item: 'allthemodium:vibranium_allthemodium_block' },
+            L: { item: 'minecraft:pink_wool' },
+            V: { item: 'minecraft:lily_of_the_valley' },
+            O: { item: 'productivelib:upgrade_productivity_4' },
+            M: { item: 'mysticalagradditions:nether_star_crux' }
+        },
+        result: {
+            id: 'allthosetweaks:baccon',
+            count: 1
+        }
+    })
+  })
+}
 
 // -= Crafting Table (Minecraft). =- (Piggy's)
 ServerEvents.recipes(event => {
