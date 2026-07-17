@@ -199,6 +199,24 @@ ServerEvents.recipes(event => {
       }
     )
 
+// --------------------- Just Dire Things --------------------- //
+    // Upgrade Ore X-Ray
+    event.remove({ output: 'justdirethings:upgrade_orexray' })
+    event.shaped(
+      'justdirethings:upgrade_orexray',
+      [
+        'UPU',
+        'CDC',
+        'UPU'
+      ],
+      {
+        U: 'allthemodium:unobtainium_ingot',
+        P: 'minecraft:calibrated_sculk_sensor',
+        C: 'minecraft:sculk_shrieker',
+        D: 'justdirethings:upgrade_blank'
+      }
+    )
+
 // --------------------- Logistics Networks --------------------- //
     // Gold Upgrade
     event.remove({ output: 'logisticsnetworks:gold_upgrade' })
