@@ -1,27 +1,24 @@
 ##[general]
 
-I:default_gui_scale = '0';
+I:default_gui_scale = '2';
 B:force_fullscreen = 'true';
 B:play_vanilla_menu_music = 'false';
 
 
 ##[customization]
 
-B:modpack_mode = 'false';
-B:show_customization_overlay = 'true';
-B:advanced_customization_mode = 'true';
+B:modpack_mode = 'true';
+B:show_customization_overlay = 'false';
+B:advanced_customization_mode = 'false';
 
 
 ##[loading]
 
-B:game_intro_fade_out = 'true';
-S:game_intro_sound_channel = 'master';
 S:preload_resources = '';
+S:custom_game_intro_skip_text = '';
 B:allow_game_intro_skip = 'true';
 S:game_intro_animation_name = '';
-F:game_intro_volume = '1.0';
-S:custom_game_intro_skip_text = '';
-
+B:game_intro_fade_out = 'true';
 
 ##[window]
 
@@ -30,7 +27,6 @@ S:custom_window_icon_macos = '/config/fancymenu/assets/allthosetechsfmac.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/allthosetechsf32.png';
 S:custom_window_title = 'All Those Tech';
 S:custom_window_icon_16 = '/config/fancymenu/assets/allthosetechsf16.png';
-
 
 ##[global_customizations]
 
@@ -144,12 +140,3 @@ B:arrow_keys_move_preview = 'false';
 
 L:placeholder_caching_duration_ms = '30';
 L:requirement_caching_duration_ms = '0';
-
-
-##[dev]
-
-B:mcp_server_enabled = 'false';
-B:dev_pip_window_debug = 'false';
-B:dev_force_mcef_missing = 'false';
-B:dev_force_watermedia_missing = 'false';
-I:mcp_server_port = '48561';

@@ -343,11 +343,11 @@ decoration_overlay {
 
 customization {
   action = backgroundoptions
-  keepaspectratio = false
+  keepaspectratio = true
 }
 
 scroll_list_customization {
-  preserve_scroll_list_header_footer_aspect_ratio = false
+  preserve_scroll_list_header_footer_aspect_ratio = true
   render_scroll_list_header_shadow = true
   render_scroll_list_footer_shadow = true
   show_scroll_list_header_footer_preview_in_editor = false
