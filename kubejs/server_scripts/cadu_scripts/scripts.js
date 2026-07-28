@@ -12,6 +12,10 @@ if (shouldFreeze) {
 //     event.add('curios:face', 'create:goggles');
 // })
 
+ServerEvents.tags('item', event => {  // Wireless Crafting Terminal (AE2) Bugado!
+    event.remove('curios:curio', 'ae2:wireless_crafting_terminal');
+})
+
 // Unified XP fluids.
 ServerEvents.tags('fluid', event => {
     const xpFluids = [
@@ -87,4 +91,26 @@ BlockEvents.rightClicked(event => {
             }
         }
     });
+})
+
+// Bloqueia itens de serem usados em clickers.
+// Lista de itens bloqueados.
+const itensBloqueados = [
+    'justdirethings:time_wand',
+    'justdynathings:advanced_time_wand',
+    'tiab:time_in_a_bottle'
+]
+ItemEvents.rightClicked(event => {
+    const { player, item } = event
+
+    if (player && player.isFake() && itensBloqueados.includes(item.id)) {
+        event.cancel()
+    }
+})
+BlockEvents.rightClicked(event => {
+    const { player, item } = event
+
+    if (player && player.isFake() && itensBloqueados.includes(item.id)) {
+        event.cancel()
+    }
 })
