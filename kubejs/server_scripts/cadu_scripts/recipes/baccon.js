@@ -1,37 +1,35 @@
-// -= Mechanical Crafter (Create). =- (Baccon)
-if (Platform.isLoaded("create")) {
+// -= Ultimate Table (Extended Crafting). =- (Baccon)
+if (Platform.isLoaded("extendedcrafting")) {
   ServerEvents.recipes(event => {
-     event.custom({
-        type: 'create:mechanical_crafting',
-        pattern: [
-            '   V   ',
-            '  LZL  ',
-            ' LNEML ',
-            'VXSCRWV',
-            ' LMTNL ',
-            '  LOL  ',
-            '   V   '
+    event.recipes.extendedcrafting.shaped_table(
+        "allthosetweaks:baccon",
+        [
+            "AAAAAAAAA",
+            "ABBBVBBBA",
+            "ABDLULDBA",
+            "ABLNEMLBA",
+            "AVUSCRUVA",
+            "ABLMTNLBA",
+            "ABDLULDBA",
+            "ABBBVBBBA",
+            "AAAAAAAAA"
         ],
-        key: {
-            C: { item: 'allthosetweaks:crochet_needle' },
-            E: { item: 'allthosetweaks:piggy_ears' },
-            S: { item: 'allthosetweaks:piggy_snout' },
-            R: { item: 'allthosetweaks:piggy_tail' },
-            T: { item: 'allthosetweaks:piggy_trotters' },
-            N: { item: 'mysticalagradditions:nitro_crystal_crux' },
-            Z: { item: 'allthemodium:unobtainium_allthemodium_block' },
-            X: { item: 'allthemodium:unobtainium_vibranium_block' },
-            W: { item: 'allthemodium:vibranium_allthemodium_block' },
-            L: { item: 'minecraft:pink_wool' },
-            V: { item: 'minecraft:lily_of_the_valley' },
-            O: { item: 'productivelib:upgrade_productivity_4' },
-            M: { item: 'mysticalagradditions:nether_star_crux' }
-        },
-        result: {
-            id: 'allthosetweaks:baccon',
-            count: 1
+        {
+            C: "allthosetweaks:crochet_needle",
+            E: "allthosetweaks:piggy_ears",
+            S: "allthosetweaks:piggy_snout",
+            R: "allthosetweaks:piggy_tail",
+            T: "allthosetweaks:piggy_trotters",
+            N: "mysticalagradditions:nitro_crystal_crux",
+            L: "minecraft:pink_wool",
+            V: "minecraft:lily_of_the_valley",
+            M: "mysticalagradditions:nether_star_crux",
+            U: "extendedcrafting:ultimate_singularity",
+            A: "allthemodium:vibranium_allthemodium_block",
+            B: "allthemodium:unobtainium_allthemodium_block",
+            D: "allthemodium:unobtainium_vibranium_block"
         }
-    })
+    )
   })
 }
 
@@ -60,9 +58,9 @@ ServerEvents.recipes(event => {
         D: 'explorerscompass:explorerscompass',
         E: 'minecraft:dragon_egg',
         F: 'aether_ii:golden_amber_block',
-        G: 'allthosetweaks:comingsoon',
-        H: 'allthosetweaks:comingsoon',
-        I: 'allthosetweaks:comingsoon'
+        G: 'productivelib:upgrade_productivity_4',
+        H: 'extendedcrafting:the_ultimate_block',
+        I: 'transmog:transmogrification_table'
       }
     )
     // Piggy Tail
