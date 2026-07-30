@@ -248,10 +248,10 @@
       id: "4377BCA32238609D",
       tasks: [
         {
-          id: "2928ECD705E32B01",
+          id: "09BB9567BC516D08",
           type: "item",
           item: {
-            id: "allthemodium:unobtainium_vibranium_block",
+            id: "extendedcrafting:ultimate_singularity",
             count: 1,
           },
         },
@@ -270,10 +270,10 @@
       id: "108D3BD4143E776C",
       tasks: [
         {
-          id: "05A3E111E710FAA6",
+          id: "1B6F7296917D1501",
           type: "item",
           item: {
-            id: "productivelib:upgrade_productivity_4",
+            id: "extendedcrafting:ultimate_singularity",
             count: 1,
           },
         },
@@ -292,10 +292,10 @@
       id: "7BBC326E8689F419",
       tasks: [
         {
-          id: "0EE95CAA978AA135",
+          id: "4927AE971B1575DE",
           type: "item",
           item: {
-            id: "allthemodium:vibranium_allthemodium_block",
+            id: "extendedcrafting:ultimate_singularity",
             count: 1,
           },
         },
@@ -314,10 +314,10 @@
       id: "51241B735D526D61",
       tasks: [
         {
-          id: "5B64FC6038BC08AC",
+          id: "70244FED44C5AF00",
           type: "item",
           item: {
-            id: "allthemodium:unobtainium_allthemodium_block",
+            id: "extendedcrafting:ultimate_singularity",
             count: 1,
           },
         },
@@ -989,10 +989,26 @@
           },
         },
         {
-          id: "39BEA741355FF77F",
+          id: "41FBA2233C916A97",
           type: "item",
           item: {
-            id: "allthosetweaks:comingsoon",
+            id: "productivelib:upgrade_productivity_4",
+            count: 1,
+          },
+        },
+        {
+          id: "4AABA85E289DB7BA",
+          type: "item",
+          item: {
+            id: "extendedcrafting:the_ultimate_block",
+            count: 1,
+          },
+        },
+        {
+          id: "310B74D683E706AD",
+          type: "item",
+          item: {
+            id: "transmog:transmogrification_table",
             count: 1,
           },
         },
@@ -1017,7 +1033,7 @@
         count: 1,
       },
       x: -3.5,
-      y: -10.5,
+      y: -11.0,
       shape: "hexagon",
       hide_dependent_lines: true,
       dependencies: [
@@ -1058,7 +1074,7 @@
         id: "minecraft:diamond_block",
         count: 1,
       },
-      x: 3.5,
+      x: 4.0,
       y: -3.5,
       shape: "hexagon",
       hide_dependent_lines: true,
@@ -1107,7 +1123,7 @@
         count: 1,
       },
       x: -3.5,
-      y: 3.5,
+      y: 4.0,
       shape: "hexagon",
       hide_dependent_lines: true,
       dependencies: [
@@ -1150,7 +1166,7 @@
       ],
     },
     {
-      x: -10.5,
+      x: -11.0,
       y: -3.5,
       shape: "hexagon",
       hide_dependent_lines: true,
@@ -1187,6 +1203,1238 @@
           id: "40FC27D532237D5A",
           type: "xp",
           xp: 10,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: -1.0,
+      id: "1788C066E876437F",
+      tasks: [
+        {
+          id: "673E82841BEEFEF1",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_vibranium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E0D0C6C35D9DCB0",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -1.0,
+      id: "2A35A4963B9C0E68",
+      tasks: [
+        {
+          id: "5ABF88AAA5DBBD53",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_vibranium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7BCA99E838DA3584",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -6.0,
+      id: "4CEB8A3F96811379",
+      tasks: [
+        {
+          id: "7CF70D216B08DD65",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_vibranium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "67CDFCA679D76AE3",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: -6.0,
+      id: "6B67120717F7EBB1",
+      tasks: [
+        {
+          id: "6D10742B54757BE0",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_vibranium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "439C6E3EFC37C8C1",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -7.5,
+      id: "5E435A3B83345A90",
+      tasks: [
+        {
+          id: "5ADD10683B402CB9",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CAFD7D471BFF524",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -5.0,
+      id: "5FFB9376FAC10EC4",
+      tasks: [
+        {
+          id: "29D123EA40279EF9",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55EE9F4D315433E4",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -2.0,
+      id: "3C6604B35F454A95",
+      tasks: [
+        {
+          id: "6629C11D9B02CE33",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "686B0F26445177FF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 0.5,
+      id: "1C8A94BC3706F3C5",
+      tasks: [
+        {
+          id: "0109D3C9225F7A54",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57336164B08260C1",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 1.5,
+      id: "64B41CA5AFF0FAB4",
+      tasks: [
+        {
+          id: "17651E7A48196967",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C99478D8B4E57E9",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 1.5,
+      id: "08AF36DD36F37D23",
+      tasks: [
+        {
+          id: "2762D4126631D7E3",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60E49E4128D5D8C2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -0.5,
+      id: "25AFA3EE2BA00D1D",
+      tasks: [
+        {
+          id: "613AD573F244A2D0",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4373960509A40886",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -2.0,
+      id: "7D01676E960BF1B2",
+      tasks: [
+        {
+          id: "12CF2573E3929351",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1548AB1E8D6D9782",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 1.5,
+      id: "2E3CD898DEF2F333",
+      tasks: [
+        {
+          id: "0C10AA0F205DB053",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "158AC193A53639B6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -0.5,
+      id: "3B04D4E003D555B2",
+      tasks: [
+        {
+          id: "1E646F5E4325E2A0",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C662C4186AA2EB7",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 1.5,
+      id: "62B3793E10178599",
+      tasks: [
+        {
+          id: "4294547D5CD5FCD9",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D2F2B905B6EABC4",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 0.5,
+      id: "2C74F1A85FC3A04B",
+      tasks: [
+        {
+          id: "62E2CE2C619DD3BC",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69DF72A2A7C3625B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -6.5,
+      id: "28359A693AFDC6B0",
+      tasks: [
+        {
+          id: "7B745C504009263D",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F85251424152302",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -7.5,
+      id: "5280F4A384185013",
+      tasks: [
+        {
+          id: "1A52C97797D8F8D0",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "42B22D3E9B2FC638",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -8.5,
+      id: "5B2CA687E37FBCC8",
+      tasks: [
+        {
+          id: "62F340F87A3ABBD5",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D5761A305478E0D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -8.5,
+      id: "3CC30AD21FC7B05C",
+      tasks: [
+        {
+          id: "3C725B48B5A2CB3D",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "182A60230947F3FC",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -8.5,
+      id: "3373EDD4DE969ECB",
+      tasks: [
+        {
+          id: "3E631736D7442897",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B2896046E230010",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -8.5,
+      id: "3F0D5FDC60A69D5C",
+      tasks: [
+        {
+          id: "24DA90C99B6C51F3",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E3656517C113ECB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -6.5,
+      id: "143DF57BD47B6971",
+      tasks: [
+        {
+          id: "64942CB6C4EC4D87",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0EFDFF75F882F051",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -5.0,
+      id: "3AB768855EF2808F",
+      tasks: [
+        {
+          id: "2B6B53059D52FE95",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "79067DC6D96FD34F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -10.0,
+      y: -7.5,
+      id: "0504ECC2437E2249",
+      tasks: [
+        {
+          id: "35CF740FFE9F2C18",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0241010B7F473C35",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -9.0,
+      id: "745771C43E579CB1",
+      tasks: [
+        {
+          id: "2583F78656D89550",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56701C34D0BF8FE0",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -9.5,
+      id: "632D5988D6BDD10F",
+      tasks: [
+        {
+          id: "22FBDDF709D6FFCC",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30494484F881608A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -9.5,
+      id: "33DCC5E24BA13613",
+      tasks: [
+        {
+          id: "78569C936C8F5A64",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "51A6CAE6A204F1AB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -9.5,
+      id: "2E0345C8074B5B98",
+      tasks: [
+        {
+          id: "6CAF0093108B8E79",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "589DE1332462CF88",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -9.5,
+      id: "5861F79B016A754D",
+      tasks: [
+        {
+          id: "5D126F52E64F760D",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3044CBCF942485F6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -9.5,
+      id: "2B7D38103E5BBCEA",
+      tasks: [
+        {
+          id: "24D74B0DB5C09626",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "685115172556052B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -9.5,
+      id: "015DF3564CFF71F7",
+      tasks: [
+        {
+          id: "2F971EB3A020F9F6",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3C8B79CC169A91A2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -8.5,
+      id: "1E187EFD0ECC0244",
+      tasks: [
+        {
+          id: "1804CCBD1DA3EBB1",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3212CBBF6FB7925C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -9.0,
+      id: "72D62B5442BE1CA1",
+      tasks: [
+        {
+          id: "32DF6CD60B7466ED",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "45DF10456EBC69FF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -8.5,
+      id: "426E873B036E04C5",
+      tasks: [
+        {
+          id: "60B753A856E3D7F9",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "520F8C1379B4E3EF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -7.5,
+      id: "0F4A25978C09E493",
+      tasks: [
+        {
+          id: "563013E1541ED9A8",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2972DE6B38394AA4",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 2.5,
+      id: "267EA6BD59A3600C",
+      tasks: [
+        {
+          id: "550B63EEEBD6B789",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63752633D69609C7",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 2.5,
+      id: "7E23F3CBD98D4929",
+      tasks: [
+        {
+          id: "28D31A54D175872D",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B257FD6A58FF8A1",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 2.5,
+      id: "5405159217226106",
+      tasks: [
+        {
+          id: "0004EF967B23E1AC",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "58079908E7740298",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: 2.5,
+      id: "71CF98F240C2B598",
+      tasks: [
+        {
+          id: "622363D592910BA5",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C05E1964EA2F2E6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 2.5,
+      id: "2E1F4ED6C0679CF3",
+      tasks: [
+        {
+          id: "19C78BCE67B99A0B",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63F6A33B4DBB824D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 2.5,
+      id: "6AD8B7307577934A",
+      tasks: [
+        {
+          id: "131A39682037573D",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CE8D6A5D472C327",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 2.0,
+      id: "3FDD4AD690D8B4F1",
+      tasks: [
+        {
+          id: "5A1D45FB0E05D09E",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "651CE5E4908C6516",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 1.5,
+      id: "5D71B91455FF2942",
+      tasks: [
+        {
+          id: "2D6E0102EED76E2C",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "38369DFFE79B4244",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 0.5,
+      id: "025CBD37CDDA1D1E",
+      tasks: [
+        {
+          id: "5163D80E29895044",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "58BA89176187ED82",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 2.0,
+      id: "7DCE73811F2BD80D",
+      tasks: [
+        {
+          id: "1F03F6609B7BAA47",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B24867BD5E604F8",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 1.5,
+      id: "36312E856E5D30FF",
+      tasks: [
+        {
+          id: "2CE866495BC75B17",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A67FAAB1BC8C950",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -10.0,
+      y: 0.5,
+      id: "40BEF044B6E8EA70",
+      tasks: [
+        {
+          id: "4052AF1337DE3CAB",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77000BE7013CE8C5",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: -1.0,
+      id: "713F36E743CB6633",
+      tasks: [
+        {
+          id: "4181D21B013C9A1E",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6ABC3218DADE20FC",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -1.0,
+      id: "13FDD3EE07649DD0",
+      tasks: [
+        {
+          id: "3546367AD0FD8011",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "39A9D69DD5C932E4",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: -2.0,
+      id: "0A82DCE55AF4C48E",
+      tasks: [
+        {
+          id: "368D5638A4FEBD35",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57C7741A70F04533",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -2.0,
+      id: "6CE32947BF7A73E5",
+      tasks: [
+        {
+          id: "0EC6290754FD7954",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4084DCFE2D1AC4D0",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: -5.0,
+      id: "1B37C0E94F8518AD",
+      tasks: [
+        {
+          id: "3AC0D806902628C7",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4BD0C8DB5CDF5562",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: -6.0,
+      id: "536A88B965CB19A5",
+      tasks: [
+        {
+          id: "3F5E5550759CCDC0",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DA4189637444BBD",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -6.0,
+      id: "07A2BB02451E7948",
+      tasks: [
+        {
+          id: "464C19F31172C278",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D556B756CC7E992",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -5.0,
+      id: "30A2B5B460BE4A79",
+      tasks: [
+        {
+          id: "771E54B318D6DA9E",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_allthemodium_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "49EE9BEBC88D4CB5",
+          type: "xp",
+          xp: 100,
         },
       ],
     },

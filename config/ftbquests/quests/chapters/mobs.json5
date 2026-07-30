@@ -66,6 +66,12 @@
       ],
       rewards: [
         {
+          id: "71286EC26BA8147A",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7103619844063962425,
+        },
+        {
           id: "57FA8CE3C874314D",
           type: "xp",
           xp: 100,
@@ -94,6 +100,12 @@
         },
       ],
       rewards: [
+        {
+          id: "0CBBE432DCD2F7DD",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 8502370445492231902,
+        },
         {
           id: "08B568998E97B531",
           type: "xp",
@@ -198,6 +210,12 @@
       ],
       rewards: [
         {
+          id: "42632449C5DEA30D",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7103619844063962425,
+        },
+        {
           id: "069169AA8125118D",
           type: "xp",
           xp: 100,
@@ -206,7 +224,7 @@
     },
     {
       x: 2.5,
-      y: 2.0,
+      y: 1.5,
       shape: "hexagon",
       id: "1BB0289F4D2D4C17",
       tasks: [
@@ -309,6 +327,12 @@
       ],
       rewards: [
         {
+          id: "2A6186243A3BF426",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7103619844063962425,
+        },
+        {
           id: "6AD512C9E83FFBD4",
           type: "xp",
           xp: 100,
@@ -337,6 +361,12 @@
         },
       ],
       rewards: [
+        {
+          id: "422F4BAA3683B5E2",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 8502370445492231902,
+        },
         {
           id: "1B624FD1F40B39F1",
           type: "xp",
@@ -437,6 +467,12 @@
       ],
       rewards: [
         {
+          id: "0FC584095BEE8BC7",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7103619844063962425,
+        },
+        {
           id: "297912D1BEF0696B",
           type: "xp",
           xp: 100,
@@ -465,6 +501,12 @@
         },
       ],
       rewards: [
+        {
+          id: "5E952EA0B1F159BE",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 8502370445492231902,
+        },
         {
           id: "2019E82AC4E1A9C8",
           type: "xp",
@@ -574,6 +616,12 @@
       ],
       rewards: [
         {
+          id: "7D6C3138AC621174",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 8502370445492231902,
+        },
+        {
           id: "4462AF781501E371",
           type: "xp",
           xp: 150,
@@ -625,7 +673,7 @@
     },
     {
       x: 2.5,
-      y: -7.5,
+      y: -7.0,
       shape: "hexagon",
       dependencies: [
         "316863907F1137C7",
@@ -638,6 +686,55 @@
         {
           id: "494CD88802449343",
           type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -9.5,
+      shape: "rsquare",
+      dependencies: [
+        "5D39283A6691AFB7",
+      ],
+      size: 2.0,
+      id: "6282FFCB3E679F86",
+      tasks: [
+        {
+          id: "299C4C669B6A70BA",
+          type: "kill",
+          entity: "minecraft:wither",
+          value: 7,
+        },
+      ],
+      rewards: [
+        {
+          id: "2EBD85EF28307249",
+          type: "item",
+          item: {
+            id: "minecraft:wither_skeleton_skull",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "1E1931D4FBFADD59",
+          type: "item",
+          item: {
+            id: "minecraft:soul_sand",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "0BD58BF7F6F6FC55",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
+        },
+        {
+          id: "5AD2B4984305F005",
+          type: "xp",
+          xp: 500,
         },
       ],
     },

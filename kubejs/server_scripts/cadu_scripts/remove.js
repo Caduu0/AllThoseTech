@@ -1,29 +1,12 @@
-// // Remove itens do inventário do jogador no primeiro login.
-// PlayerEvents.loggedIn(event => {
-//     const { player, server } = event;
-//     if (!player.stages.has('primeiro_login')) {
-//         player.stages.add('primeiro_login');
-//         server.scheduleInTicks(20, () => {
-
-//             // LISTA DE ITENS PARA REMOVER
-//             let itensParaRemover = [
-//                 'MOD:ITEM'
-//             ];
-
-//             itensParaRemover.forEach(item => {
-//                 server.runCommandSilent(`clear ${player.username} ${item}`);
-//             });
-//         });
-//     }
-// })
-
 const REMOVED_ITEMS = [ // Adicionar tambem a "client_scripts/cadu_scripts/remove.js" para bloquear o uso dos itens.
     'mysticalagriculture:limestone_seeds',
     'mysticalagriculture:limestone_essence',
     'mysticalagriculture:saltpeter_seeds',
     'mysticalagriculture:saltpeter_essence',
     'mysticalagriculture:marble_seeds',
-    'mysticalagriculture:marble_essence'
+    'mysticalagriculture:marble_essence',
+    'meinfinitycell:infinity_water_cell',
+    'meinfinitycell:infinity_cobblestone_cell'
 ];
 
 // Remove as receitas que criam ou usam os itens.

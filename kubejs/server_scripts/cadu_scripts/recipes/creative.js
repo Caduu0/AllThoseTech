@@ -33,6 +33,36 @@ ServerEvents.recipes(event => {
         G: 'ae2:quartz_glass'
       }
     )
+    // ME Infinity Lava Cell
+    event.shaped(
+      'kubejs:lava_cell',
+      [
+        'GLG',
+        'LCL',
+        'DDD'
+      ],
+      {
+        C: 'ae2:creative_storage_cell',
+        L: 'minecraft:lava_bucket',
+        D: 'minecraft:diamond',
+        G: 'ae2:quartz_glass'
+      }
+    )
+    // ME Infinity Dirt Cell
+    event.shaped(
+      'kubejs:dirt_cell',
+      [
+        'GAG',
+        'ACA',
+        'DDD'
+      ],
+      {
+        A: 'utilitarian:drit',
+        C: 'ae2:creative_storage_cell',
+        D: 'minecraft:diamond',
+        G: 'ae2:quartz_glass'
+      }
+    )
     // Upgrade: Creative Battery (Mining Gadgets)
     event.remove({ output: 'mininggadgets:upgrade_battery_creative' })
     event.shaped(
