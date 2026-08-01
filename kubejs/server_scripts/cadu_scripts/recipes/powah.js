@@ -80,7 +80,6 @@ ServerEvents.recipes(event => {
             count: 1
         }
     })
-// --------------------- AE2 --------------------- //
     // Charged Certus Quartz Crystal
     event.custom({
         type: 'powah:energizing',

@@ -110,6 +110,19 @@ ServerEvents.recipes(event => {
         P: 'pipez:universal_pipe'
       }
     )
+    // Creative Tank (Oritech)
+    event.shaped(
+      'oritech:creative_tank',
+      [
+        'TTT',
+        'TAT',
+        'TTT'
+      ],
+      {
+        A: 'allthosetweaks:baccon',
+        T: 'oritech:portable_tank'
+      }
+    )
 })
 
 // -= Energizeing (Powah). =-
@@ -211,6 +224,26 @@ ServerEvents.recipes(event => {
         // Resultado.
         result: {
             id: 'integrateddynamics:energy_battery_creative',
+            count: 1
+        }
+    })
+    // Creative Battery Storage (Oritech)
+    event.custom({
+        type: 'powah:energizing',
+        energy: 5000000000, // Energia (FE).
+        
+        // Ingredientes (Recomendado de 1 até 6).
+        ingredients: [
+            'powah:energy_cell_nitro',
+            'oritech:large_storage',
+            'allthosetweaks:baccon',
+            'oritech:large_storage',
+            'powah:energy_cell_nitro'
+        ],
+        
+        // Resultado.
+        result: {
+            id: 'oritech:creative_storage',
             count: 1
         }
     })
