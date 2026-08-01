@@ -180,6 +180,20 @@ ServerEvents.recipes(event => {
         I: 'pipez:item_pipe'
       }
     )
+    // Gas Pipe
+    event.shaped(
+      Item.of('pipez:gas_pipe', 16),
+      [
+        'FFF',
+        'GRG',
+        'FFF'
+      ],
+      {
+        R: 'minecraft:redstone_block',
+        F: 'minecraft:iron_ingot',
+        G: 'minecraft:glass'
+      }
+    )
 
 // --------------------- Time in a Bottle --------------------- //
     // Time in a Bottle

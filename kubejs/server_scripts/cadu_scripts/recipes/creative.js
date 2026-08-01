@@ -96,6 +96,20 @@ ServerEvents.recipes(event => {
         I: 'justdirethings:inventory_holder'
       }
     )
+    // Infinity Upgrade (Pipez)
+    event.shaped(
+      'pipez:infinity_upgrade',
+      [
+        'UPU',
+        'PAP',
+        'UPU'
+      ],
+      {
+        A: 'allthosetweaks:baccon',
+        U: 'pipez:ultimate_upgrade',
+        P: 'pipez:universal_pipe'
+      }
+    )
 })
 
 // -= Energizeing (Powah). =-
