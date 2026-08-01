@@ -1,6 +1,6 @@
 let $DefaultArtifactVersion = Java.loadClass("org.apache.maven.artifact.versioning.DefaultArtifactVersion")
 let $Locale = Java.loadClass("java.util.Locale")
-const MODPACK_ID = "1148445"
+const MODPACK_ID = "1599771"
 
 StartupEvents.postInit((event) => {
   if (!Platform.isLoaded("bcc") || !Platform.isLoaded("kubejstweaks") || !Platform.isClientEnvironment()) return

@@ -12,7 +12,7 @@ let currentVersion = null
 // kubejs/assets/lang/es_es.json
 
 function initAnnouncements() {
-  addAnnouncement("0.0.2", Text.translatable("announcements.version"))
+  addAnnouncement("0.0.3", Text.translatable("announcements.version"))
 }
 
 ServerEvents.loaded((event) => {

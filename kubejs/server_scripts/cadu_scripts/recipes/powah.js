@@ -80,4 +80,37 @@ ServerEvents.recipes(event => {
             count: 1
         }
     })
+// --------------------- AE2 --------------------- //
+    // Charged Certus Quartz Crystal
+    event.custom({
+        type: 'powah:energizing',
+        energy: 1000, // Energia (FE).
+        
+        // Ingredientes (Recomendado de 1 até 6).
+        ingredients: [
+            'ae2:certus_quartz_crystal',
+        ],
+        
+        // Resultado.
+        result: {
+            id: 'ae2:charged_certus_quartz_crystal',
+            count: 1
+        }
+    })
+    // Charged Redstone Crystal
+    event.custom({
+        type: 'powah:energizing',
+        energy: 2000, // Energia (FE).
+        
+        // Ingredientes (Recomendado de 1 até 6).
+        ingredients: [
+            'appflux:redstone_crystal',
+        ],
+        
+        // Resultado.
+        result: {
+            id: 'appflux:charged_redstone',
+            count: 1
+        }
+    })
 })
