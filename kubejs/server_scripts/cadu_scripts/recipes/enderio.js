@@ -45,28 +45,33 @@ ServerEvents.recipes(event => {
     })
 })
 
-// -= Receitas da SAG Mill (EnderIO). =- (Dust)
+// -= Receitas da SAG Mill (EnderIO). =-
 ServerEvents.recipes(event => {
-  // Lista de receitas.
-  const ae2MillingRecipes = [
+  const MillingRecipes = [
     { input: '#ae2:all_certus_quartz', output: 'ae2:certus_quartz_dust', count: 1, energy: 2400 },
     { input: 'ae2:fluix_crystal', output: 'ae2:fluix_dust', count: 1, energy: 2400 },
     { input: 'extendedae:entro_crystal', output: 'extendedae:entro_dust', count: 1, energy: 2400 },
-    { input: 'ae2:sky_stone_block', output: 'ae2:sky_dust', count: 1, energy: 2400 }
+    { input: 'ae2:sky_stone_block', output: 'ae2:sky_dust', count: 1, energy: 2400, }
   ]
-  ae2MillingRecipes.forEach(recipe => {
-    const outputName = recipe.output.split(':')[1];
+
+  MillingRecipes.forEach(recipe => {
+    let mainOutput = {
+      item: {
+        id: recipe.output,
+        count: recipe.count
+      }
+    }
+
+    if (recipe.chance) { // Adicionar "chance: 0.5" caso queira.
+      mainOutput.chance = recipe.chance
+    }
+
     event.custom({
       type: 'enderio:sag_milling',
       energy: recipe.energy,
-      input: Ingredient.of(recipe.input).toJson(),
+      input: recipe.input,
       outputs: [
-        {
-          item: {
-            id: recipe.output,
-            count: recipe.count
-          }
-        }
+        mainOutput
       ]
     })
   })

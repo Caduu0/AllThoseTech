@@ -1,42 +1,25 @@
-// -= Advanced Crusher (Energized Power). =-
+// -= Pulverizer (Energized Power). =-
 ServerEvents.recipes(event => {
-    // Unobtainium Allthemodium Alloy Dust
+  const PulverizerRecipes = [
+    { ingredient: '#ae2:all_certus_quartz', result: 'ae2:certus_quartz_dust', count: 1, percentages: [ 1.0, 1.0, 0.5 ] },
+    { ingredient: 'ae2:fluix_crystal', result: 'ae2:fluix_dust', count: 1, percentages: [ 1.0, 1.0, 0.5 ] },
+    { ingredient: 'extendedae:entro_crystal', result: 'extendedae:entro_dust', count: 1, percentages: [ 1.0, 1.0, 0.5 ] },
+    { ingredient: 'ae2:sky_stone_block', result: 'ae2:sky_dust', count: 1, percentages: [ 1.0, 1.0, 0.5 ] },
+    { ingredient: '#c:ender_pearls', result: 'ae2:ender_dust', count: 1, percentages: [ 1.0, 1.0, 0.5 ] },
+    { ingredient: '#c:gems/emerald', result: 'appflux:emerald_dust', count: 1, percentages: [ 1.0, 1.0, 0.5 ] },
+    { ingredient: 'allthemodium:unobtainium_allthemodium_alloy_ingot', result: 'allthemodium:unobtainium_allthemodium_alloy_dust', count: 1, percentages: [ 0.5, 0.01 ] },
+    { ingredient: 'allthemodium:unobtainium_vibranium_alloy_ingot', result: 'allthemodium:unobtainium_vibranium_alloy_dust', count: 1, percentages: [ 0.5, 0.01 ] },
+    { ingredient: 'allthemodium:vibranium_allthemodium_alloy_ingot', result: 'allthemodium:vibranium_allthemodium_alloy_dust', count: 1, percentages: [ 0.5, 0.01 ] }
+  ]
+  PulverizerRecipes.forEach(recipe => {
     event.custom({
-        type: 'energizedpower:crusher',
-
-        // Ingrediente.
-        ingredient: 'allthemodium:unobtainium_allthemodium_alloy_ingot',
-
-        // Resultado
+        type: 'energizedpower:pulverizer',
+        ingredient: recipe.ingredient,
         result: {
-            id: 'allthemodium:unobtainium_allthemodium_alloy_dust',
-            count: 1 
+            result: recipe.result,
+            count: recipe.count,
+            percentages: recipe.percentages
         }
     })
-    // Unobtainium Vibranium Alloy Dust
-    event.custom({
-        type: 'energizedpower:crusher',
-
-        // Ingrediente.
-        ingredient: 'allthemodium:unobtainium_vibranium_alloy_ingot',
-
-        // Resultado
-        result: {
-            id: 'allthemodium:unobtainium_vibranium_alloy_dust',
-            count: 1 
-        }
-    })
-    // Vibranium Allthemodium Alloy Dust
-    event.custom({
-        type: 'energizedpower:crusher',
-
-        // Ingrediente.
-        ingredient: 'allthemodium:vibranium_allthemodium_alloy_ingot',
-
-        // Resultado
-        result: {
-            id: 'allthemodium:vibranium_allthemodium_alloy_dust',
-            count: 1 
-        }
-    })
+  })
 })
