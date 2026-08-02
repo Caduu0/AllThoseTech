@@ -1,37 +1,16 @@
-let $TreeMap = Java.loadClass("java.util.TreeMap")
 /** @type {import("org.apache.maven.artifact.versioning.DefaultArtifactVersion").$DefaultArtifactVersion$$Type} */
 let $DefaultArtifactVersion = Java.loadClass("org.apache.maven.artifact.versioning.DefaultArtifactVersion")
-/** @type {import("java.util.TreeMap").$TreeMap$$Type<(import("org.apache.maven.artifact.versioning.DefaultArtifactVersion").$DefaultArtifactVersion$$Original), (import("java.util.List").$List$$Type<(import("net.minecraft.network.chat.MutableComponent").$MutableComponent$$Original) >) >} */
-let announcements = new $TreeMap()
+
 /** @type {import("org.apache.maven.artifact.versioning.DefaultArtifactVersion").$DefaultArtifactVersion$$Original} */
 let currentVersion = null
 
-// Traduções:
-// kubejs/assets/lang/en_us.json
-// kubejs/assets/lang/pt_br.json
-// kubejs/assets/lang/es_es.json
-
-function initAnnouncements() {
-  addAnnouncement("0.0.3", Text.translatable("announcements.version"))
-}
-
 ServerEvents.loaded((event) => {
   if (!Platform.isLoaded("bcc")) return
-  announcements.clear()
+  
   /** @type {import("dev.wuffs.bcc.BetterCompatibilityChecker").$BetterCompatibilityChecker$$Original} */
   let $BccInstance = Java.loadClass("dev.wuffs.bcc.BetterCompatibilityChecker")
   currentVersion = new $DefaultArtifactVersion($BccInstance.betterStatus.version())
-  initAnnouncements()
 })
-
-function addAnnouncement(
-  /** @type {string} */ version,
-  /** @type {import("net.minecraft.network.chat.MutableComponent").$MutableComponent$$Original} */ component
-) {
-  announcements
-    .computeIfAbsent(new $DefaultArtifactVersion(version), (key) => Utils.newList())
-    .addLast(typeof component == "string" ? Text.of(component) : component)
-}
 
 PlayerEvents.loggedIn((event) => {
   if (currentVersion == null) return
@@ -46,25 +25,18 @@ PlayerEvents.loggedIn((event) => {
   }
 
   if (currentDismissed.compareTo(currentVersion) >= 0) return
-  let pendingAnnouncements = announcements.subMap(currentDismissed, false, currentVersion, true)
+  event.player.tell(
+    Text.translatable("=====[  %s  ]=====", Text.cyan("All Those Tech").bold()).gold().bold()
+  )
+  
+  let message = Text.translatable("announcements.version", Text.gold(currentVersion.toString())).cyan()
+  event.player.tell(message)
 
-  if (!pendingAnnouncements.isEmpty()) {
-    event.player.tell(
-      Text.translatable("=====[  %s  ]=====", Text.cyan("All Those Tech").bold()).gold().bold()
-    )
-    pendingAnnouncements.forEach((key, listComponents) => {
-      for (let component of listComponents) {
-        let message = Text.translatable("[%s] - %s", Text.gold(key.toString()), component.cyan()).cyan()
-        event.player.tell(message)
-      }
-    })
-    // Botão clicável que executa o comando para dispensar
-    let message = Text.translatable("announcements.dismiss_up_to_version", Text.blue(currentVersion.toString()))
-      .green()
-      .hover(Text.translatable("announcements.click_here"))
-      .clickRunCommand("/dismiss_announcements")
-    event.player.tell(message)
-  }
+  let dismissBtn = Text.translatable("announcements.dismiss_up_to_version", Text.blue(currentVersion.toString()))
+    .green()
+    .hover(Text.translatable("announcements.click_here"))
+    .clickRunCommand("/dismiss_announcements")
+  event.player.tell(dismissBtn)
 })
 
 ServerEvents.basicPublicCommand("dismiss_announcements", (event) => {

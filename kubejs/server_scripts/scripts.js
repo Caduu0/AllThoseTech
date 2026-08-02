@@ -12,10 +12,6 @@ if (shouldFreeze) {
 //     event.add('curios:face', 'create:goggles');
 // })
 
-ServerEvents.tags('item', event => {  // Wireless Crafting Terminal (AE2) Bugado!
-    event.remove('curios:curio', 'ae2:wireless_crafting_terminal');
-})
-
 // Unified XP fluids.
 ServerEvents.tags('fluid', event => {
     const xpFluids = [

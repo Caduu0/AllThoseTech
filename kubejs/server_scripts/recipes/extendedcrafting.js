@@ -63,3 +63,27 @@ ServerEvents.recipes(event => {
         }
     )
 })
+
+// -= Elite Table (Extended Crafting). =-
+ServerEvents.recipes(event => {
+    // Coffee Machine
+    event.remove({ output: "cookingforblockheads:coffee_machine" })
+    event.recipes.extendedcrafting.shaped_table(
+        "cookingforblockheads:coffee_machine", // Resultado.
+        [
+            "AAAAAAA",
+            "ABBBBBA",
+            "ABCCCBA",
+            "ABCDCBA",
+            "ABCCCBA",
+            "ABBBBBA",
+            "AAAAAAA"
+        ],
+        {
+            A: "minecraft:iron_block",
+            B: "minecraft:water_bucket",
+            C: "luminax:luminax_button",
+            D: "croptopia:coffee_beans"
+        }
+    )
+})

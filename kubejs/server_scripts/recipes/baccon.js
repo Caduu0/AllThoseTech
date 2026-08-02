@@ -66,14 +66,14 @@ ServerEvents.recipes(event => {
     // Piggy Tail
     event.shaped('allthosetweaks:piggy_tail', ['ABC',  'DEF',  'GHI'],
       {
-        A: 'allthosetweaks:comingsoon',
-        B: 'allthosetweaks:comingsoon',
-        C: 'allthosetweaks:comingsoon',
-        D: 'allthosetweaks:comingsoon',
-        E: 'allthosetweaks:comingsoon',
-        F: 'allthosetweaks:comingsoon',
+        A: 'oritech:machine_core_7',
+        B: 'advanced_ae:quantum_storage_256',
+        C: 'oritech:manhattan_module',
+        D: 'oritech:particle_accelerator',
+        E: 'ae2:singularity',
+        F: 'oritech:accelerator_motor',
         G: 'allthosetweaks:comingsoon',
-        H: 'allthosetweaks:comingsoon',
+        H: 'cookingforblockheads:coffee_machine',
         I: 'allthosetweaks:comingsoon'
       }
     )

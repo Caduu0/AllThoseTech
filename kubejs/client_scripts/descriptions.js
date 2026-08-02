@@ -11,11 +11,9 @@ ItemEvents.modifyTooltips(event => {
         Text.of("§4§lWaiting for more mods for your crafting."),
         Text.of("§5§oWhile you wait, how about creating the most awesome farms so you're ready when the time comes?")
     ])
-    // Wireless Crafting Terminal (AE2)
-    event.add("ae2:wireless_crafting_terminal", [
-        Text.of("§4Curios disabled to avoid bugs."),
-        // Text.of("§4§lBe Careful!"),
-        // Text.of("§4When placed in the Curios, the items from the crafting terminal disappear...")
+    // Wireless Universal Terminal (AE2)
+    event.add("ae2wtlib:wireless_universal_terminal", [
+        Text.of("§4Doesn't open on curious."),
     ])
     // Time Wand
     event.add("justdirethings:time_wand", [
