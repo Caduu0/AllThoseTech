@@ -870,7 +870,71 @@
       id: "63146FDFDF9F6DBF",
       tasks: [
         {
-          id: "27BF54EFB0C3A768",
+          id: "7456DF8EB198CF9E",
+          type: "item",
+          item: {
+            id: "oritech:machine_core_7",
+            count: 1,
+          },
+        },
+        {
+          id: "1B06F4A8200E180F",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_storage_256",
+            count: 1,
+          },
+        },
+        {
+          id: "4135882E73E0E64E",
+          type: "item",
+          item: {
+            id: "oritech:manhattan_module",
+            count: 1,
+          },
+        },
+        {
+          id: "4F1C50AA7200C158",
+          type: "item",
+          item: {
+            id: "oritech:particle_accelerator",
+            count: 1,
+          },
+        },
+        {
+          id: "0D461F623C4AA0BD",
+          type: "item",
+          item: {
+            id: "ae2:singularity",
+            count: 1,
+          },
+        },
+        {
+          id: "07FFE30E3F36720E",
+          type: "item",
+          item: {
+            id: "oritech:accelerator_motor",
+            count: 1,
+          },
+        },
+        {
+          id: "459EF6E641AB831E",
+          type: "item",
+          item: {
+            id: "allthosetweaks:comingsoon",
+            count: 1,
+          },
+        },
+        {
+          id: "3B31B6310F654BD6",
+          type: "item",
+          item: {
+            id: "cookingforblockheads:coffee_machine",
+            count: 1,
+          },
+        },
+        {
+          id: "3564D9611A99804A",
           type: "item",
           item: {
             id: "allthosetweaks:comingsoon",
