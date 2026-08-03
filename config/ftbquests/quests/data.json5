@@ -4,7 +4,7 @@
     id: "ftbquests:custom_icon",
     count: 1,
     components: {
-      "ftbquests:icon": "allthosetweaks:textures/item/bacconsf.png",
+      "ftbquests:icon": "allthosetweaks:textures/allthosetechsf.png",
     },
   },
   default_reward_team: false,
