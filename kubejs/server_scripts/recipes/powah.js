@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
         
         // Ingredientes (Recomendado de 1 até 6).
         ingredients: [
-            'ae2:certus_quartz_crystal',
+            'ae2:certus_quartz_crystal'
         ],
         
         // Resultado.
@@ -103,12 +103,30 @@ ServerEvents.recipes(event => {
         
         // Ingredientes (Recomendado de 1 até 6).
         ingredients: [
-            'appflux:redstone_crystal',
+            'appflux:redstone_crystal'
         ],
         
         // Resultado.
         result: {
             id: 'appflux:charged_redstone',
+            count: 1
+        }
+    })
+    // Emerald
+    event.custom({
+        type: 'powah:energizing',
+        energy: 3000000, // Energia (FE).
+        
+        // Ingredientes (Recomendado de 1 até 6).
+        ingredients: [
+            'minecraft:diamond',
+            'minecraft:diamond',
+            'minecraft:diamond'
+        ],
+        
+        // Resultado.
+        result: {
+            id: 'minecraft:emerald',
             count: 1
         }
     })

@@ -60,6 +60,64 @@ ServerEvents.recipes(event => {
             count: 4
         }
     })
+    // Redstone Crystal
+    event.custom({
+        type: 'extendedae:crystal_assembler',
+        energy: 9000, // Energia (AE2).
+
+        // Ingredientes (de 1 a 9 itens).
+        input_items: [
+            {
+                amount: 16, 
+                ingredient: 'minecraft:redstone_block'
+            },
+            {
+                amount: 16, 
+                ingredient: 'ae2:fluix_crystal'
+            },
+            {
+                amount: 16, 
+                ingredient: 'minecraft:glowstone_dust'
+            }
+        ],
+
+        // Liquido.
+        input_fluid: {
+            ingredient: 'minecraft:water',
+            amount: 1000 // Quantidade (mB).
+        },
+
+        // Resultado.
+        output: {
+            id: 'appflux:redstone_crystal',
+            count: 16
+        }
+    })
+    // Charged Redstone
+    event.custom({
+        type: 'extendedae:crystal_assembler',
+        energy: 180000, // Energia (AE2).
+
+        // Ingredientes (de 1 a 9 itens).
+        input_items: [
+            {
+                amount: 64, 
+                ingredient: 'appflux:redstone_crystal'
+            }
+        ],
+
+        // Liquido.
+        input_fluid: {
+            ingredient: 'minecraft:lava',
+            amount: 1000 // Quantidade (mB).
+        },
+
+        // Resultado.
+        output: {
+            id: 'appflux:charged_redstone',
+            count: 64
+        }
+    })
     // Vibranium Allthemodium Alloy Ingot
     event.custom({
         type: 'extendedae:crystal_assembler',

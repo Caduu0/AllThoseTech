@@ -62,6 +62,39 @@ ServerEvents.recipes(event => {
             I: "extendedcrafting:crystaltine_catalyst"
         }
     )
+    // Infinity Grinding Ball
+    event.recipes.extendedcrafting.shaped_table(
+        "grindingballadditions:infinite_grindingball", // Resultado.
+        [
+            "ABCDEFGHI",
+            "JKLMNOP  ",
+            "         ",
+            "         ",
+            "         ",
+            "         ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        {
+            A: "enderio:energetic_alloy_grinding_ball",
+            B: "enderio:vibrant_alloy_grinding_ball",
+            C: "enderio:redstone_alloy_grinding_ball",
+            D: "enderio:conductive_alloy_grinding_ball",
+            E: "enderio:pulsating_alloy_grinding_ball",
+            F: "enderio:dark_steel_grinding_ball",
+            G: "enderio:soularium_grinding_ball",
+            H: "enderio:end_steel_grinding_ball",
+            I: "enderio_endergy:crude_steel_grinding_ball",
+            J: "enderio_endergy:crystalline_alloy_grinding_ball",
+            K: "enderio_endergy:melodic_alloy_grinding_ball",
+            L: "enderio_endergy:stellar_alloy_grinding_ball",
+            M: "enderio_endergy:vivid_alloy_grinding_ball",
+            N: "grindingballadditions:allthemodium_grindingball",
+            O: "grindingballadditions:vibranium_grindingball",
+            P: "grindingballadditions:unobtainium_grindingball"
+        }
+    )
 })
 
 // -= Elite Table (Extended Crafting). =-

@@ -1,5 +1,5 @@
-// -= Crafting Table (Minecraft). =-
 ServerEvents.recipes(event => {
+  // -= Crafting Table (Minecraft). =-
 // --------------------- Baubley Heart ---------------------  //
     // Canister
     event.remove({ output: 'bhc:canister' })
@@ -442,6 +442,12 @@ ServerEvents.recipes(event => {
             id: 'allthemodium:alloy_trident'
         }
     })
+})
+
+// -= Furnace (Minecraft). =-
+ServerEvents.recipes(event => { // Resultado, Entrada, Experiência, Tempo.
+  // Leather
+  event.smelting('minecraft:leather', 'minecraft:rotten_flesh', 0.2, 300)
 })
 
 // ------------------------------------------ //

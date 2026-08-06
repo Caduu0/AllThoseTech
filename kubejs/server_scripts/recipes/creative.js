@@ -123,6 +123,19 @@ ServerEvents.recipes(event => {
         T: 'oritech:portable_tank'
       }
     )
+    // Creative Tank (Iron Tanks)
+    event.shaped(
+      'irontanks:creative_tank',
+      [
+        'TTT',
+        'TAT',
+        'TTT'
+      ],
+      {
+        A: 'allthosetweaks:baccon',
+        T: 'irontanks:tungstensteel_tank'
+      }
+    )
 })
 
 // -= Energizeing (Powah). =-
