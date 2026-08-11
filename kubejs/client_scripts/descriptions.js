@@ -15,16 +15,20 @@ ItemEvents.modifyTooltips(event => {
     event.add("ae2wtlib:wireless_universal_terminal", [
         Text.of("§4Doesn't open on curious."),
     ])
-    // Time Wand
+    // Time Wand (Just Dire Things)
     event.add("justdirethings:time_wand", [
         Text.of("§4Use blocked on clickers (Fake Players).")
     ])
-    // Advanced Time Wand
+    // Advanced Time Wand (Just Dyna Things)
     event.add("justdynathings:advanced_time_wand", [
         Text.of("§4Use blocked on clickers (Fake Players).")
     ])
-    // Time in a Bottle
+    // Time in a Bottle (Tiab)
     event.add("tiab:time_in_a_bottle", [
         Text.of("§4Use blocked on clickers (Fake Players).")
+    ])
+    // Ender Dust (AE2)
+    event.add("ae2:ender_dust", [
+        Text.of("§4Replaced by Powdered Ender Pearl.")
     ])
 })

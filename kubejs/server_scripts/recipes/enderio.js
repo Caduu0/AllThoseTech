@@ -51,8 +51,14 @@ ServerEvents.recipes(event => {
     { input: '#ae2:all_certus_quartz', output: 'ae2:certus_quartz_dust', count: 1, energy: 2400 },
     { input: 'ae2:fluix_crystal', output: 'ae2:fluix_dust', count: 1, energy: 2400 },
     { input: 'extendedae:entro_crystal', output: 'extendedae:entro_dust', count: 1, energy: 2400 },
-    { input: 'ae2:sky_stone_block', output: 'ae2:sky_dust', count: 1, energy: 2400, }
+    { input: 'ae2:sky_stone_block', output: 'ae2:sky_dust', count: 1, energy: 2400 },
+    { input: 'advanced_ae:shattered_singularity', output: 'advanced_ae:quantum_infused_dust', count: 1, energy: 2400 },
+    { input: '#c:gems/diamond', output: 'appflux:diamond_dust', count: 1, energy: 2400 },
+    { input: '#c:gems/emerald', output: 'appflux:emerald_dust', count: 1, energy: 2400 }
   ]
+
+  // Remove receita da Ender Dust (AE2).
+  event.remove({ output: 'ae2:ender_dust' })
 
   MillingRecipes.forEach(recipe => {
     let mainOutput = {
