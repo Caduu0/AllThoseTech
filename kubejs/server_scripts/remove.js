@@ -6,8 +6,7 @@ const REMOVED_ITEMS = [ // Adicionar tambem a "client_scripts/cadu_scripts/remov
     'mysticalagriculture:marble_seeds',
     'mysticalagriculture:marble_essence',
     'meinfinitycell:infinity_water_cell',
-    'meinfinitycell:infinity_cobblestone_cell',
-    'oritech:arcane_catalyst' // Pensar sobre remover ou manter e dificultar.
+    'meinfinitycell:infinity_cobblestone_cell'
 ]
 
 // Remove as receitas que criam ou usam os itens.

@@ -393,6 +393,26 @@ ServerEvents.recipes(event => {
         A: 'allthemodium:unobtainium_ingot'
       }
     )
+// --------------------- Oritech --------------------- //
+    // Arcane Catalyst
+    event.remove({ output: 'oritech:arcane_catalyst' })
+    event.shaped(
+      'oritech:arcane_catalyst',
+      [
+        'UVA',
+        'OSO',
+        'TET'
+      ],
+      {
+        U: 'allthemodium:unobtainium_allthemodium_alloy_dust',
+        V: 'allthemodium:unobtainium_vibranium_alloy_dust',
+        A: 'allthemodium:vibranium_allthemodium_alloy_dust',
+        O: 'minecraft:crying_obsidian',
+        S: 'oritech:super_ai_chip',
+        T: 'apothic_enchanting:treasure_shelf',
+        E: 'apothic_enchanting:apothic_enchanting_table'
+      }
+    )
 })
 
 // ------------------------------------------ //

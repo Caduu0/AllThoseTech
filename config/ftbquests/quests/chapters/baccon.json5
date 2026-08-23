@@ -301,6 +301,7 @@
     {
       x: -7.5,
       y: -3.5,
+      size: 1.0,
       id: "4377BCA32238609D",
       tasks: [
         {
@@ -323,6 +324,7 @@
     {
       x: -3.5,
       y: 0.5,
+      size: 1.0,
       id: "108D3BD4143E776C",
       tasks: [
         {
@@ -345,6 +347,7 @@
     {
       x: 0.5,
       y: -3.5,
+      size: 1.0,
       id: "7BBC326E8689F419",
       tasks: [
         {
@@ -367,6 +370,7 @@
     {
       x: -3.5,
       y: -7.5,
+      size: 1.0,
       id: "51241B735D526D61",
       tasks: [
         {
@@ -389,6 +393,7 @@
     {
       x: -4.5,
       y: -7.0,
+      size: 1.0,
       id: "3AA3027F914B6341",
       tasks: [
         {
@@ -411,6 +416,7 @@
     {
       x: -2.5,
       y: -7.0,
+      size: 1.0,
       id: "75A189A80F46A93D",
       tasks: [
         {
@@ -433,6 +439,7 @@
     {
       x: -4.5,
       y: 0.0,
+      size: 1.0,
       id: "0341B5384497156D",
       tasks: [
         {
@@ -455,6 +462,7 @@
     {
       x: -2.5,
       y: 0.0,
+      size: 1.0,
       id: "544B148D050DCC4C",
       tasks: [
         {
@@ -477,6 +485,7 @@
     {
       x: 1.5,
       y: -3.5,
+      size: 1.0,
       id: "6FD8FBF28C1DE777",
       tasks: [
         {
@@ -499,6 +508,7 @@
     {
       x: -3.5,
       y: 1.5,
+      size: 1.0,
       id: "243AF32E76D5DAF7",
       tasks: [
         {
@@ -521,6 +531,7 @@
     {
       x: -3.5,
       y: -8.5,
+      size: 1.0,
       id: "60E68110B0BEB33D",
       tasks: [
         {
@@ -543,6 +554,7 @@
     {
       x: -8.5,
       y: -3.5,
+      size: 1.0,
       id: "59CA22863B8731D5",
       tasks: [
         {
@@ -565,6 +577,7 @@
     {
       x: -7.0,
       y: -2.5,
+      size: 1.0,
       id: "6A1DF09E06EEA680",
       tasks: [
         {
@@ -587,6 +600,7 @@
     {
       x: -7.0,
       y: -4.5,
+      size: 1.0,
       id: "1ABC1B9EFA592EC7",
       tasks: [
         {
@@ -609,6 +623,7 @@
     {
       x: 0.0,
       y: -4.5,
+      size: 1.0,
       id: "1E3B8D5FF92984C9",
       tasks: [
         {
@@ -631,6 +646,7 @@
     {
       x: 0.0,
       y: -2.5,
+      size: 1.0,
       id: "54E2FECFE71C36DF",
       tasks: [
         {
@@ -653,6 +669,7 @@
     {
       x: -5.5,
       y: -5.5,
+      size: 1.0,
       id: "3A8A019F2F5E0FEF",
       tasks: [
         {
@@ -675,6 +692,7 @@
     {
       x: -1.5,
       y: -1.5,
+      size: 1.0,
       id: "38CEE57F41CC3169",
       tasks: [
         {
@@ -697,6 +715,7 @@
     {
       x: -5.5,
       y: -1.5,
+      size: 1.0,
       id: "2C3AD1DF78FC74E7",
       tasks: [
         {
@@ -719,6 +738,7 @@
     {
       x: -1.5,
       y: -5.5,
+      size: 1.0,
       id: "0222B3DFD61D690F",
       tasks: [
         {
@@ -766,6 +786,7 @@
       y: -7.0,
       shape: "rsquare",
       hide_dependent_lines: true,
+      size: 1.0,
       id: "0D1DBB482A040306",
       tasks: [
         {
@@ -867,6 +888,7 @@
       y: -7.0,
       shape: "rsquare",
       hide_dependent_lines: true,
+      size: 1.0,
       id: "63146FDFDF9F6DBF",
       tasks: [
         {
@@ -921,7 +943,7 @@
           id: "459EF6E641AB831E",
           type: "item",
           item: {
-            id: "allthosetweaks:comingsoon",
+            id: "oritech:arcane_catalyst",
             count: 1,
           },
         },
@@ -937,7 +959,7 @@
           id: "3564D9611A99804A",
           type: "item",
           item: {
-            id: "allthosetweaks:comingsoon",
+            id: "oritech:spawner_controller",
             count: 1,
           },
         },
@@ -961,6 +983,7 @@
       y: 0.0,
       shape: "rsquare",
       hide_dependent_lines: true,
+      size: 1.0,
       id: "6C7516BC965EC1E0",
       tasks: [
         {
@@ -991,6 +1014,7 @@
       y: 0.0,
       shape: "rsquare",
       hide_dependent_lines: true,
+      size: 1.0,
       id: "35F71CCA819BEE4B",
       tasks: [
         {
@@ -1329,6 +1353,7 @@
     {
       x: -7.0,
       y: -1.0,
+      size: 1.0,
       id: "1788C066E876437F",
       tasks: [
         {
@@ -1351,6 +1376,7 @@
     {
       x: 0.0,
       y: -1.0,
+      size: 1.0,
       id: "2A35A4963B9C0E68",
       tasks: [
         {
@@ -1373,6 +1399,7 @@
     {
       x: 0.0,
       y: -6.0,
+      size: 1.0,
       id: "4CEB8A3F96811379",
       tasks: [
         {
@@ -1395,6 +1422,7 @@
     {
       x: -7.0,
       y: -6.0,
+      size: 1.0,
       id: "6B67120717F7EBB1",
       tasks: [
         {
@@ -1417,6 +1445,7 @@
     {
       x: -7.5,
       y: -7.5,
+      size: 1.0,
       id: "5E435A3B83345A90",
       tasks: [
         {
@@ -1439,6 +1468,7 @@
     {
       x: 1.5,
       y: -5.0,
+      size: 1.0,
       id: "5FFB9376FAC10EC4",
       tasks: [
         {
@@ -1461,6 +1491,7 @@
     {
       x: 1.5,
       y: -2.0,
+      size: 1.0,
       id: "3C6604B35F454A95",
       tasks: [
         {
@@ -1483,6 +1514,7 @@
     {
       x: -7.5,
       y: 0.5,
+      size: 1.0,
       id: "1C8A94BC3706F3C5",
       tasks: [
         {
@@ -1505,6 +1537,7 @@
     {
       x: -5.0,
       y: 1.5,
+      size: 1.0,
       id: "64B41CA5AFF0FAB4",
       tasks: [
         {
@@ -1527,6 +1560,7 @@
     {
       x: -6.5,
       y: 1.5,
+      size: 1.0,
       id: "08AF36DD36F37D23",
       tasks: [
         {
@@ -1549,6 +1583,7 @@
     {
       x: -8.5,
       y: -0.5,
+      size: 1.0,
       id: "25AFA3EE2BA00D1D",
       tasks: [
         {
@@ -1571,6 +1606,7 @@
     {
       x: -8.5,
       y: -2.0,
+      size: 1.0,
       id: "7D01676E960BF1B2",
       tasks: [
         {
@@ -1593,6 +1629,7 @@
     {
       x: -2.0,
       y: 1.5,
+      size: 1.0,
       id: "2E3CD898DEF2F333",
       tasks: [
         {
@@ -1615,6 +1652,7 @@
     {
       x: 1.5,
       y: -0.5,
+      size: 1.0,
       id: "3B04D4E003D555B2",
       tasks: [
         {
@@ -1637,6 +1675,7 @@
     {
       x: -0.5,
       y: 1.5,
+      size: 1.0,
       id: "62B3793E10178599",
       tasks: [
         {
@@ -1659,6 +1698,7 @@
     {
       x: 0.5,
       y: 0.5,
+      size: 1.0,
       id: "2C74F1A85FC3A04B",
       tasks: [
         {
@@ -1681,6 +1721,7 @@
     {
       x: 1.5,
       y: -6.5,
+      size: 1.0,
       id: "28359A693AFDC6B0",
       tasks: [
         {
@@ -1703,6 +1744,7 @@
     {
       x: 0.5,
       y: -7.5,
+      size: 1.0,
       id: "5280F4A384185013",
       tasks: [
         {
@@ -1725,6 +1767,7 @@
     {
       x: -0.5,
       y: -8.5,
+      size: 1.0,
       id: "5B2CA687E37FBCC8",
       tasks: [
         {
@@ -1747,6 +1790,7 @@
     {
       x: -2.0,
       y: -8.5,
+      size: 1.0,
       id: "3CC30AD21FC7B05C",
       tasks: [
         {
@@ -1769,6 +1813,7 @@
     {
       x: -5.0,
       y: -8.5,
+      size: 1.0,
       id: "3373EDD4DE969ECB",
       tasks: [
         {
@@ -1791,6 +1836,7 @@
     {
       x: -6.5,
       y: -8.5,
+      size: 1.0,
       id: "3F0D5FDC60A69D5C",
       tasks: [
         {
@@ -1813,6 +1859,7 @@
     {
       x: -8.5,
       y: -6.5,
+      size: 1.0,
       id: "143DF57BD47B6971",
       tasks: [
         {
@@ -1835,6 +1882,7 @@
     {
       x: -8.5,
       y: -5.0,
+      size: 1.0,
       id: "3AB768855EF2808F",
       tasks: [
         {
@@ -1857,6 +1905,7 @@
     {
       x: -10.0,
       y: -7.5,
+      size: 1.0,
       id: "0504ECC2437E2249",
       tasks: [
         {
@@ -1879,6 +1928,7 @@
     {
       x: -7.5,
       y: -9.0,
+      size: 1.0,
       id: "745771C43E579CB1",
       tasks: [
         {
@@ -1901,6 +1951,7 @@
     {
       x: -6.5,
       y: -9.5,
+      size: 1.0,
       id: "632D5988D6BDD10F",
       tasks: [
         {
@@ -1923,6 +1974,7 @@
     {
       x: -5.5,
       y: -9.5,
+      size: 1.0,
       id: "33DCC5E24BA13613",
       tasks: [
         {
@@ -1945,6 +1997,7 @@
     {
       x: -4.5,
       y: -9.5,
+      size: 1.0,
       id: "2E0345C8074B5B98",
       tasks: [
         {
@@ -1967,6 +2020,7 @@
     {
       x: -2.5,
       y: -9.5,
+      size: 1.0,
       id: "5861F79B016A754D",
       tasks: [
         {
@@ -1989,6 +2043,7 @@
     {
       x: -1.5,
       y: -9.5,
+      size: 1.0,
       id: "2B7D38103E5BBCEA",
       tasks: [
         {
@@ -2011,6 +2066,7 @@
     {
       x: -0.5,
       y: -9.5,
+      size: 1.0,
       id: "015DF3564CFF71F7",
       tasks: [
         {
@@ -2033,6 +2089,7 @@
     {
       x: -8.5,
       y: -8.5,
+      size: 1.0,
       id: "1E187EFD0ECC0244",
       tasks: [
         {
@@ -2055,6 +2112,7 @@
     {
       x: 0.5,
       y: -9.0,
+      size: 1.0,
       id: "72D62B5442BE1CA1",
       tasks: [
         {
@@ -2077,6 +2135,7 @@
     {
       x: 1.5,
       y: -8.5,
+      size: 1.0,
       id: "426E873B036E04C5",
       tasks: [
         {
@@ -2099,6 +2158,7 @@
     {
       x: 3.0,
       y: -7.5,
+      size: 1.0,
       id: "0F4A25978C09E493",
       tasks: [
         {
@@ -2121,6 +2181,7 @@
     {
       x: -6.5,
       y: 2.5,
+      size: 1.0,
       id: "267EA6BD59A3600C",
       tasks: [
         {
@@ -2143,6 +2204,7 @@
     {
       x: -5.5,
       y: 2.5,
+      size: 1.0,
       id: "7E23F3CBD98D4929",
       tasks: [
         {
@@ -2165,6 +2227,7 @@
     {
       x: -4.5,
       y: 2.5,
+      size: 1.0,
       id: "5405159217226106",
       tasks: [
         {
@@ -2187,6 +2250,7 @@
     {
       x: -2.5,
       y: 2.5,
+      size: 1.0,
       id: "71CF98F240C2B598",
       tasks: [
         {
@@ -2209,6 +2273,7 @@
     {
       x: -1.5,
       y: 2.5,
+      size: 1.0,
       id: "2E1F4ED6C0679CF3",
       tasks: [
         {
@@ -2231,6 +2296,7 @@
     {
       x: -0.5,
       y: 2.5,
+      size: 1.0,
       id: "6AD8B7307577934A",
       tasks: [
         {
@@ -2253,6 +2319,7 @@
     {
       x: 0.5,
       y: 2.0,
+      size: 1.0,
       id: "3FDD4AD690D8B4F1",
       tasks: [
         {
@@ -2275,6 +2342,7 @@
     {
       x: 1.5,
       y: 1.5,
+      size: 1.0,
       id: "5D71B91455FF2942",
       tasks: [
         {
@@ -2297,6 +2365,7 @@
     {
       x: 3.0,
       y: 0.5,
+      size: 1.0,
       id: "025CBD37CDDA1D1E",
       tasks: [
         {
@@ -2319,6 +2388,7 @@
     {
       x: -7.5,
       y: 2.0,
+      size: 1.0,
       id: "7DCE73811F2BD80D",
       tasks: [
         {
@@ -2341,6 +2411,7 @@
     {
       x: -8.5,
       y: 1.5,
+      size: 1.0,
       id: "36312E856E5D30FF",
       tasks: [
         {
@@ -2363,6 +2434,7 @@
     {
       x: -10.0,
       y: 0.5,
+      size: 1.0,
       id: "40BEF044B6E8EA70",
       tasks: [
         {
@@ -2385,6 +2457,7 @@
     {
       x: -10.5,
       y: -1.0,
+      size: 1.0,
       id: "713F36E743CB6633",
       tasks: [
         {
@@ -2407,6 +2480,7 @@
     {
       x: 3.5,
       y: -1.0,
+      size: 1.0,
       id: "13FDD3EE07649DD0",
       tasks: [
         {
@@ -2429,6 +2503,7 @@
     {
       x: -10.5,
       y: -2.0,
+      size: 1.0,
       id: "0A82DCE55AF4C48E",
       tasks: [
         {
@@ -2451,6 +2526,7 @@
     {
       x: 3.5,
       y: -2.0,
+      size: 1.0,
       id: "6CE32947BF7A73E5",
       tasks: [
         {
@@ -2473,6 +2549,7 @@
     {
       x: -10.5,
       y: -5.0,
+      size: 1.0,
       id: "1B37C0E94F8518AD",
       tasks: [
         {
@@ -2495,6 +2572,7 @@
     {
       x: -10.5,
       y: -6.0,
+      size: 1.0,
       id: "536A88B965CB19A5",
       tasks: [
         {
@@ -2517,6 +2595,7 @@
     {
       x: 3.5,
       y: -6.0,
+      size: 1.0,
       id: "07A2BB02451E7948",
       tasks: [
         {
@@ -2539,6 +2618,7 @@
     {
       x: 3.5,
       y: -5.0,
+      size: 1.0,
       id: "30A2B5B460BE4A79",
       tasks: [
         {
@@ -2569,6 +2649,7 @@
       hide_until_deps_visible: true,
       hide_until_deps_complete: true,
       hide_text_until_complete: true,
+      size: 1.0,
       optional: true,
       can_repeat: false,
       invisible: true,
@@ -2604,6 +2685,7 @@
       hide_until_deps_visible: true,
       hide_until_deps_complete: true,
       hide_text_until_complete: true,
+      size: 1.0,
       optional: true,
       can_repeat: false,
       invisible: true,
@@ -2639,6 +2721,7 @@
       hide_until_deps_visible: true,
       hide_until_deps_complete: true,
       hide_text_until_complete: true,
+      size: 1.0,
       optional: true,
       can_repeat: false,
       invisible: true,
@@ -2674,6 +2757,7 @@
       hide_until_deps_visible: true,
       hide_until_deps_complete: true,
       hide_text_until_complete: true,
+      size: 1.0,
       optional: true,
       can_repeat: false,
       invisible: true,

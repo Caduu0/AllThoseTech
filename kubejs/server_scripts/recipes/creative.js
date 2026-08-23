@@ -138,6 +138,24 @@ ServerEvents.recipes(event => {
     )
 })
 
+// -= Smithing Table (Minecraft). =-
+ServerEvents.recipes(event => {
+    // Max Storage Upgrade (Functional Storage)
+    event.custom({
+        type: 'minecraft:smithing_transform',
+
+        // Os 3 inputs
+        template: 'allthemodium:unobtainium_upgrade_smithing_template',
+        base: 'functionalstorage:netherite_upgrade',
+        addition: 'allthosetweaks:baccon',
+
+        // Resultado final
+        result: {
+            id: 'functionalstorage:max_storage_upgrade'
+        }
+    })
+})
+
 // -= Energizeing (Powah). =-
 ServerEvents.recipes(event => {
     // Energy Cell Creative (Powah)
@@ -257,6 +275,26 @@ ServerEvents.recipes(event => {
         // Resultado.
         result: {
             id: 'oritech:creative_storage',
+            count: 1
+        }
+    })
+    // Creative Vending Upgrade (Functional Storage)
+    event.custom({
+        type: 'powah:energizing',
+        energy: 7000000000000, // Energia (FE).
+        
+        // Ingredientes (Recomendado de 1 até 6).
+        ingredients: [
+            'functionalstorage:max_storage_upgrade',
+            'functionalstorage:max_storage_upgrade',
+            'allthosetweaks:baccon',
+            'functionalstorage:max_storage_upgrade',
+            'functionalstorage:max_storage_upgrade'
+        ],
+        
+        // Resultado.
+        result: {
+            id: 'functionalstorage:creative_vending_upgrade',
             count: 1
         }
     })

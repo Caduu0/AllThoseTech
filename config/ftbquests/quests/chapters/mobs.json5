@@ -226,6 +226,7 @@
       x: 2.5,
       y: 1.5,
       shape: "hexagon",
+      size: 1.0,
       id: "1BB0289F4D2D4C17",
       tasks: [
         {
@@ -681,6 +682,7 @@
         "229259BF2E5E2933",
         "5A1F1C219D828655",
       ],
+      size: 1.0,
       id: "5D39283A6691AFB7",
       tasks: [
         {
@@ -749,6 +751,7 @@
       hide_until_deps_visible: true,
       hide_until_deps_complete: true,
       hide_text_until_complete: true,
+      size: 1.0,
       optional: true,
       can_repeat: false,
       invisible: true,

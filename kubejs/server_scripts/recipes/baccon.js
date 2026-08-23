@@ -72,9 +72,9 @@ ServerEvents.recipes(event => {
         D: 'oritech:particle_accelerator',
         E: 'ae2:singularity',
         F: 'oritech:accelerator_motor',
-        G: 'allthosetweaks:comingsoon',
+        G: 'oritech:arcane_catalyst',
         H: 'cookingforblockheads:coffee_machine',
-        I: 'allthosetweaks:comingsoon'
+        I: 'oritech:spawner_controller'
       }
     )
     // Piggy Trotters
