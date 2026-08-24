@@ -12,6 +12,22 @@ if (shouldFreeze) {
 //     event.add('curios:face', 'create:goggles');
 // })
 
+// Blocked Items Drawers.
+ServerEvents.tags('item', event => {
+    const Bitems = [
+        "allthosetweaks:baccon",
+        "allthosetweaks:piggy_ears",
+        "allthosetweaks:piggy_snout",
+        "allthosetweaks:piggy_tail",
+        "allthosetweaks:piggy_trotters",
+        "extendedcrafting:ultimate_singularity"
+    ]
+
+    event.add('functionalstorage:creative_vending_upgrade_incompatible', Bitems)
+    event.add('functionalstorage:drawer_storage_denylist', Bitems)
+    event.add('functionalstorage:fluid_drawer_storage_denylist', Bitems)
+})
+
 // Unified XP fluids.
 ServerEvents.tags('fluid', event => {
     const xpFluids = [
