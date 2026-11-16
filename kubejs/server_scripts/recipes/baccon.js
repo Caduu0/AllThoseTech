@@ -80,11 +80,11 @@ ServerEvents.recipes(event => {
     // Piggy Trotters
     event.shaped('allthosetweaks:piggy_trotters', ['ABC',  'DEF',  'GHI'],
       {
-        A: 'allthosetweaks:comingsoon',
-        B: 'allthosetweaks:comingsoon',
-        C: 'allthosetweaks:comingsoon',
-        D: 'allthosetweaks:comingsoon',
-        E: 'allthosetweaks:comingsoon',
+        A: 'mekanism:pellet_antimatter',
+        B: 'mekanism:ultimate_induction_cell',
+        C: 'mekanism_extras:infinite_control_circuit',
+        D: 'mekanism_extras:qio_drive_singularity',
+        E: 'scc:star_core_singularity',
         F: 'allthosetweaks:comingsoon',
         G: 'allthosetweaks:comingsoon',
         H: 'allthosetweaks:comingsoon',

@@ -987,7 +987,71 @@
       id: "6C7516BC965EC1E0",
       tasks: [
         {
-          id: "75DA63878A56C42F",
+          id: "75A02BD6FC0EA813",
+          type: "item",
+          item: {
+            id: "mekanism:pellet_antimatter",
+            count: 1,
+          },
+        },
+        {
+          id: "6DD7040FC0A008FA",
+          type: "item",
+          item: {
+            id: "mekanism:ultimate_induction_cell",
+            count: 1,
+          },
+        },
+        {
+          id: "7E451C670AF40D09",
+          type: "item",
+          item: {
+            id: "mekanism_extras:infinite_control_circuit",
+            count: 1,
+          },
+        },
+        {
+          id: "188D77F535B7EE69",
+          type: "item",
+          item: {
+            id: "mekanism_extras:qio_drive_singularity",
+            count: 1,
+          },
+        },
+        {
+          id: "02B6E46B64AE7355",
+          type: "item",
+          item: {
+            id: "scc:star_core_singularity",
+            count: 1,
+          },
+        },
+        {
+          id: "5D1665E882F87354",
+          type: "item",
+          item: {
+            id: "allthosetweaks:comingsoon",
+            count: 1,
+          },
+        },
+        {
+          id: "0B4FC927A69805BC",
+          type: "item",
+          item: {
+            id: "allthosetweaks:comingsoon",
+            count: 1,
+          },
+        },
+        {
+          id: "01184C206C94F422",
+          type: "item",
+          item: {
+            id: "allthosetweaks:comingsoon",
+            count: 1,
+          },
+        },
+        {
+          id: "417FB6C963D4F033",
           type: "item",
           item: {
             id: "allthosetweaks:comingsoon",

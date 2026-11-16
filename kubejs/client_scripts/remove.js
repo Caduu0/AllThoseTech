@@ -6,7 +6,8 @@ const REMOVED_ITEMS = [ // Adicionar tambem a "server_scripts/cadu_scripts/remov
     'mysticalagriculture:marble_seeds',
     'mysticalagriculture:marble_essence',
     'meinfinitycell:infinity_water_cell',
-    'meinfinitycell:infinity_cobblestone_cell'
+    'meinfinitycell:infinity_cobblestone_cell',
+    'logisticsnetworks:ars_source_upgrade'
 ]
 
 // Remove os itens das telas de busca (JEI, REI e EMI).

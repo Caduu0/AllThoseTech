@@ -31,4 +31,30 @@ ItemEvents.modifyTooltips(event => {
     event.add("ae2:ender_dust", [
         Text.of("§4Replaced by Powdered Ender Pearl.")
     ])
+    // // Mekanism P1r4t3k5
+    // event.add('@allthemodium', [
+    // Text.of("§6Descrição para todos os itens do mod.")
+    // ])
+})
+// Descrição em TODOS os itens do mod.
+ItemEvents.modifyTooltips(event => {
+    // Mekanism e seus addons
+    const mekanismMods = [
+        'mekanism',
+        'mekanism_extras',
+        'mekmm',
+        'mekanismgenerators',
+        'mekanismtools',
+        'mekanismadditions'
+    ]
+
+    const description = [
+        Text.of("§4§lWARNING:"),
+        Text.of("§4This mod is not in its original version! It may be removed at any time without prior notice.")
+    ]
+
+    mekanismMods.forEach(mod => {
+        event.add(new RegExp(`^${mod}:`), description)
+    })
+
 })

@@ -63,16 +63,16 @@ ServerEvents.tags("block", (event) => {
 ServerEvents.recipes(event => {
     const pecas = ['helmet', 'chestplate', 'leggings', 'boots'];
     pecas.forEach(peca => {
+        const antigo = `minecraft:netherite_${peca}`;
+        const novo = `allthemodium:unobtainium_${peca}`;
+
         event.replaceInput(
-            { 
-                type: 'minecraft:crafting_shaped', 
-                output: `advanced_ae:quantum_${peca}`
-            },
-            `minecraft:netherite_${peca}`,      // Item Antigo
-            `allthemodium:unobtainium_${peca}`  // Item Novo
-        )
-    })
-})
+            { input: antigo },
+            antigo,
+            novo
+        );
+    });
+});
 
 // Abre as duas portas ao inves de so uma.
 BlockEvents.rightClicked(event => {

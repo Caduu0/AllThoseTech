@@ -180,20 +180,6 @@ ServerEvents.recipes(event => {
         I: 'pipez:item_pipe'
       }
     )
-    // Gas Pipe
-    event.shaped(
-      Item.of('pipez:gas_pipe', 16),
-      [
-        'FFF',
-        'GRG',
-        'FFF'
-      ],
-      {
-        R: 'minecraft:redstone_block',
-        F: 'minecraft:iron_ingot',
-        G: 'minecraft:glass'
-      }
-    )
 
 // --------------------- Time in a Bottle --------------------- //
     // Time in a Bottle
@@ -210,6 +196,25 @@ ServerEvents.recipes(event => {
         A: 'allthemodium:allthemodium_ingot',
         V: 'allthemodium:vibranium_ingot',
         U: 'allthemodium:unobtainium_ingot'
+      }
+    )
+
+// --------------------- Dis-Enchanting Table --------------------- //
+    // Dis-Enchanting Table
+    event.remove({ output: 'disenchanting_table:disenchanting_table' })
+    event.shaped(
+      'disenchanting_table:disenchanting_table',
+      [
+        'ALA',
+        'DED',
+        'OOO'
+      ],
+      {
+        A: 'allthemodium:allthemodium_ingot',
+        L: 'minecraft:lapis_block',
+        D: 'minecraft:diamond_block',
+        E: 'minecraft:enchanting_table',
+        O: 'minecraft:obsidian'
       }
     )
 
@@ -294,6 +299,38 @@ ServerEvents.recipes(event => {
         N: 'minecraft:nether_star',
         B: 'minecraft:dragon_breath',
         U: 'logisticsnetworks:netherite_upgrade'
+      }
+    )
+
+// --------------------- Torch Master --------------------- //
+    // Feral Lantern
+    event.remove({ output: 'torchmaster:feral_flare_lantern' })
+    event.shaped(
+      'torchmaster:feral_flare_lantern',
+      [
+        ' A ',
+        'VGV',
+        ' A '
+      ],
+      {
+        A: 'minecraft:diamond',
+        G: 'minecraft:glowstone',
+        V: 'minecraft:tinted_glass'
+      }
+    )
+
+    // Mega Torch
+    event.remove({ output: 'torchmaster:megatorch' })
+    event.shaped(
+      'torchmaster:megatorch',
+      [
+        'FFF',
+        'FAF',
+        'FFF'
+      ],
+      {
+        F: 'torchmaster:feral_flare_lantern',
+        A: 'minecraft:netherite_ingot'
       }
     )
 // --------------------- EnderIO --------------------- //
@@ -411,6 +448,23 @@ ServerEvents.recipes(event => {
         S: 'oritech:super_ai_chip',
         T: 'apothic_enchanting:treasure_shelf',
         E: 'apothic_enchanting:apothic_enchanting_table'
+      }
+    )
+// --------------------- RFTools --------------------- //
+    // Arcane Catalyst
+    event.remove({ output: 'rftoolsbuilder:builder' })
+    event.shaped(
+      'rftoolsbuilder:builder',
+      [
+        'PEP',
+        'RBR',
+        'PRP'
+      ],
+      {
+        P: 'allthemodium:allthemodium_nugget',
+        E: 'minecraft:ender_pearl',
+        R: 'minecraft:redstone_block',
+        B: 'rftoolsbase:machine_frame'
       }
     )
 })
