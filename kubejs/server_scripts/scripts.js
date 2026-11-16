@@ -106,7 +106,6 @@ BlockEvents.rightClicked(event => {
 })
 
 // Bloqueia itens de serem usados em clickers.
-// Lista de itens bloqueados.
 const itensBloqueados = [
     'justdirethings:time_wand',
     'justdynathings:advanced_time_wand',
