@@ -26,10 +26,10 @@ PlayerEvents.loggedIn((event) => {
 
   if (currentDismissed.compareTo(currentVersion) >= 0) return
   event.player.tell(
-    Text.translatable("=====[  %s  ]=====", Text.cyan("All Those Tech").bold()).gold().bold()
+    Text.translatable("=====[  %s  ]=====", Text.aqua("All Those Tech").bold()).gold().bold()
   )
   
-  let message = Text.translatable("announcements.version", Text.gold(currentVersion.toString())).cyan()
+  let message = Text.translatable("announcements.version", Text.gold(currentVersion.toString())).aqua()
   event.player.tell(message)
 
   let dismissBtn = Text.translatable("announcements.dismiss_up_to_version", Text.blue(currentVersion.toString()))
@@ -50,14 +50,14 @@ ServerEvents.basicPublicCommand("dismiss_announcements", (event) => {
   let pData = player.getPersistentData()
   if (event.input == "clear") {
     pData.putString("LastDismissedAnnouncementVersion", "0.0.0")
-    event.respond(Text.cyan("Cleared dismissed version!"))
+    event.respond(Text.aqua("Cleared dismissed version!"))
   } else {
     if (currentVersion == null) {
       event.cancel("Current version of the modpack is null, is BetterCompatibilityCheck installed?")
     } else {
       pData.putString("LastDismissedAnnouncementVersion", currentVersion.toString())
       event.respond(
-        Text.translatable("announcements.dismissed_up_to_version", currentVersion.toString()).cyan()
+        Text.translatable("announcements.dismissed_up_to_version", currentVersion.toString()).aqua()
       )
     }
   }

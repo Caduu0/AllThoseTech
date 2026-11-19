@@ -1,0 +1,5 @@
+# Libera classes de rede para o update_notifier.js (checagem de versao no GitHub).
+# + permite, - bloqueia. Cada linha e um pacote ou classe.
++java.net.http
++java.net.URI
++java.time.Duration
